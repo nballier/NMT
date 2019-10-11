@@ -82,3 +82,7 @@ WMT workshop
 Taylor Arnold et al. 2019 *A Computational Approach to Statistical Learning* CRC Press. 
 (see  chapter 8 on neural networks, code in R) 
 
+## Notes
+
+Autre systèmes : [Nematus](https://github.com/EdinburghNLP/nematus)
+
