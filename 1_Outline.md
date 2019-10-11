@@ -49,6 +49,13 @@ https://github.com/TalLinzen/rnn_agreement
 ### K. Gulordava, P. Bojanowski, E. Grave, T. Linzen, M. Baroni. 2018. Colorless green recurrent networks dream hierarchically. Proceedings of NAACL.
 https://github.com/facebookresearch/colorlessgreenRNNs/tree/master/data
 
+## Entraînement
+
+Comment s'assurer qu'un réseau de neurones est correctement entraîné ? "neural network learning curve"
+
+OpenNMT et la réplication d'expérience.
+[Quelques paramètres d'entraînement](http://opennmt.net/OpenNMT-py/FAQ.html#how-do-i-use-the-transformer-model-do-you-support-multi-gpu).
+
 
 
 ## DEADLINES FOR CONFERENCE PAPERS
