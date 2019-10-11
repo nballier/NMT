@@ -8,6 +8,8 @@
 Adjoindre le WER
 A moyen terme, permettre d'avoir la main pour lancer les expés.
 
+Par exemple en utilisant [un outil trouvé sur GitHub ?](https://github.com/jitsi/asr-wer/blob/master/jiwer/wer.py)
+
 
 
 ## 1. Implémenter les solutions de visualisation développée dans les travaux de Montavon
