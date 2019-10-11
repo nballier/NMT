@@ -1,22 +1,19 @@
 
 # TODO 
 
-## Aider Khaled à installer localement en CPU OpenNMT
 
 ## Améliorer le script pour lancer à distance des entraînements d'OpenNMT sur du GPU
 
-
-
 ## 1. Améliorer le jeu de données initial (13 époques, score bleu).
-Adjoindre l
-A moyen terme, permettre d'avoir la main 
+Adjoindre le WER
+A moyen terme, permettre d'avoir la main pour lancer les expés.
+
 
 
 ## 1. Implémenter les solutions de visualisation développée dans les travaux de Montavon
 http://www.heatmapping.org/
 http://heatmapping.org/tutorial.
 https://arxiv.org/pdf/1706.07979.pdf
-
 
 ## 2. pouvoir répliquer les trois papiers réplicables avec des données français/anglais :
 
@@ -44,7 +41,6 @@ Tal Linzen, Emmanuel Dupoux & Yoav Goldberg (2016). Assessing the ability of LST
 https://github.com/TalLinzen/rnn_agreement
 
 @article{linzen2016assessing,     Author = {Linzen, Tal and Dupoux, Emmanuel and Goldberg, Yoav},     Journal = {Transactions of the Association for Computational Linguistics},     Title = {Assessing the ability of {LSTMs} to learn syntax-sensitive dependencies},     Volume = {4},     Pages = {521--535},     Year = {2016} }
-
  
 
 ### K. Gulordava, P. Bojanowski, E. Grave, T. Linzen, M. Baroni. 2018. Colorless green recurrent networks dream hierarchically. Proceedings of NAACL.
@@ -58,10 +54,14 @@ https://github.com/facebookresearch/colorlessgreenRNNs/tree/master/data
 https://lrec2020.lrec-conf.org/en/reprolang2020/call-for-papers/
 REPROLANG 2020
 Shared Task on the Reproduction of Research Results in Science and Technology of Language  
-Satellite workshop
+Satellite workshop: REPROLANG : paper for NMT:
+Vanmassenhove, Eva, and Andy Way. 2018. “SuperNMT: Neural Machine Translation with Semantic Supersenses and Syntactic Supertags”. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL 2018), pp. 67–73.
+http://aclweb.org/anthology/P18-3010
+Major reproduction comparables: BLEU scores (tables 1 and 2; plots in figures 2, 3 and 4).
 
 9 décembre texte long JADT : https://jadt2020.sciencesconf.org/
 December 9, 2019 deadline ACL main conf https://acl2020.org/calls/papers/
+
 
 Feb possible deadlines for ACL sattelites : 
 BLACKBOX : https://blackboxnlp.github.io/
