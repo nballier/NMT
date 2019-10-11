@@ -5,8 +5,7 @@
 ## Améliorer le script pour lancer à distance des entraînements d'OpenNMT sur du GPU
 
 ## 1. Améliorer le jeu de données initial (13 époques, score bleu).
-Adjoindre le WER
-A moyen terme, permettre d'avoir la main pour lancer les expés.
+Adjoindre le WER (via github?) .A moyen terme, permettre d'avoir la main pour lancer les expés, éventuellemnet
 
 Par exemple en utilisant [un outil trouvé sur GitHub ?](https://github.com/jitsi/asr-wer/blob/master/jiwer/wer.py)
 
