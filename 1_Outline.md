@@ -15,6 +15,8 @@ http://www.heatmapping.org/
 http://heatmapping.org/tutorial.
 https://arxiv.org/pdf/1706.07979.pdf
 
+Montavon [Vidéo](https://www.youtube.com/watch?v=gy_Cb4Do_YE)
+
 ## 2. pouvoir répliquer les trois papiers réplicables avec des données français/anglais :
 
 ### BeLINKOv ET AL. 2017 NEURAL : knowledge  morphology in MT (Hebrew morphology)
