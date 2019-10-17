@@ -71,6 +71,8 @@ BPE again ??
 cf example (6) in the paper
 Supersenses:
 https://github.com/nschneid/pysupersensetagger
+"To obtain the supersense tags we used the AMALGrAM (A Machine Analyzer of Lexical Groupings and Meanings) 2.0 tool 1" 
+
 For post-edition of MWE:
 http://www.cs.cmu.edu/~ark/LexSem/
 
@@ -82,6 +84,7 @@ For the MWEs we decided to copy the super- sense tag to all the words of the MWE
 ####  Job6 Combined (SST–CCG)
 
 ####  Job 7 : contiguity tags versus boundary tags for mwe
+Replace _mwe  _mwe _mwe   by  | [mwe  |mwe  | ]mwe 
 
 ####  Job 8: tags with pipes as separators ???
 
