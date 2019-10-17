@@ -21,7 +21,6 @@ et News-2013: extraction à discuter de
 http://www.statmt.org/wmt14/translation-task.html
 
 
-
 ### Extractions données
 Extraire 5K phrases pour corpus de validation (à réutiliser en test)
 
@@ -72,6 +71,21 @@ Job10 upos with
 
 Job  11 -> parsed information?
 https://spacy.io/
+
+
+
+Report precision rates of the tools
+Baseline (BPE) vs Combined (SST–CCG) NMT Systems for EN–FR, evaluated on the newstest2013.
+Baseline (BPE) vs Syntactic (CCG) vs Semantic (SST) and Combined (SST–CCG) NMT Systems for EN–FR, evaluated on the newstest2013.
+
+(1) BPE Sennrich et al. (2016)  // word-segmentation with BPE (Sennrich, 2015). We ran the BPE algorithm with 89, 500 operations.
+
+(2) supersenses SST 
+
+(3) PoS tags with Stanford tool (Toutanova et al., 2003)
+
+(4) CCG tags with EasySRL tool (Lewis et al., 2015) 
+CCG tags provide global syntactic information on the lexical level 
 
 
 ##
