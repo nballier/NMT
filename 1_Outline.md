@@ -2,6 +2,7 @@
 # TODO 
 
 ## Améliorer le script pour lancer à distance des entraînements d'OpenNMT sur du GPU
+Nabil continue d'explorer les caractéristiques de 
 
 
 ## 1. Améliorer le jeu de données initial (13 époques, score bleu).
