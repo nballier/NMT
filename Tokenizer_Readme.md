@@ -15,6 +15,6 @@ Look here for more informations related to the Spicy Language Cores:
 
 https://spacy.io/usage/models
 
-Exemple of usages with subword-nmt using the test-token produces with the tokenizer:
+Exemple of usages with subword-nmt using the test-token produced with the tokenizer:
 subword-nmt -learn-bpe < test-token-en.txt > codes.bpe
 subword-nmt apply_bpe -c codes.bpe < train.tok > train.tok.bpe
