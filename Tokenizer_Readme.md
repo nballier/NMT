@@ -1,6 +1,6 @@
 # Tokenizer.py
 
-The tokenizer uses the spicy library. 
+The tokenizer uses the spaCy library. 
 
 It takes a text file and outputs a tokenization of this file usable by subword-nmt.
 
@@ -14,9 +14,9 @@ The **-src** argument is the source file you want to use to produce tokens (your
 
 The **-dst** argument is the file you want to create to put your results on (your output)
 
-The **-lg_core** argument is the core you'll use depending on the language you're going to tokenize (here it's english)
+The **-lg_core** argument is the core you'll use depending on the language you're going to tokenize (here it's English)
 
-Look here for more informations related to the Spicy Language Cores:
+Look here for more informations related to the spaCy Language Cores:
 
 https://spacy.io/usage/models
 
