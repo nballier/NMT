@@ -2,14 +2,13 @@
 # TODO 
 
 ## 0. Améliorer le script pour lancer à distance des entraînements d'OpenNMT sur du GPU
-Nabil continue d'explorer les caractéristiques des différents paramètres d'OpenNMT, eg utiliser tensorboard pour le suivi de l'apprentissage. Les paramètres peuvent faire l'objet de commentaire sur la page NN.
+Nabil continue d'explorer les caractéristiques des différents paramètres d'OpenNMT, eg utiliser tensorboard pour le suivi de l'apprentissage. Les paramètres peuvent faire l'objet de commentaire sur la page NN. Différentes solutions de traitement de sonnées sont à tester dont https://edu.google.com/ .
 
 
 ## 1. Améliorer le jeu de données initial (13 époques, score bleu).
 Permettre la comparabilité avec le premier jeu de données produit.  
-Adjoindre le WER (via github?), voire le score ROUGE. A moyen terme, permettre à NB d'avoir la main pour lancer les expés puis aux linguistes de récupérer les modèles entraînés.
+Adjoindre le WER (via github?), voire le score ROUGE et les visualisations TensorFlow. Les données de tests et d'entraînement sont dans data.farm.zip. A moyen terme, permettre à NB d'avoir la main pour lancer les expés puis aux linguistes de récupérer les modèles entraînés.
 Par exemple en utilisant [un outil trouvé sur GitHub ?](https://github.com/jitsi/asr-wer/blob/master/jiwer/wer.py)
-
 
 
 ## 2. Article sur la réplicabilité (Nematus, données annotées)
@@ -40,7 +39,7 @@ Extraire 5K phrases pour corpus de validation (à réutiliser en test)
 Europarl "tokenisé": word-segmentation with PBE (with 89,500 operations) <br/>
 BPE-Encoding:(python) <br/>
 https://github.com/rsennrich/subword-nmt <br/>
-"To reduce the number of out-of-vocabulary (OOV) words, we follow the approach of Sennrich et al. (2016) using a variant of BPE for word seg- mentation capable of encoding open vocabularies with a compact symbol vocabulary of variable- length subword units. For each word that is split into subword units, we copy the features of the word in question to its subword units. 
+"To reduce the number of out-of-vocabulary (OOV) words, we follow the approach of Sennrich et al. (2016) using a variant of BPE for word segmentation capable of encoding open vocabularies with a compact symbol vocabulary of variable- length subword units. For each word that is split into subword units, we copy the features of the word in question to its subword units. 
 In (3), we give an example with the word ‘stormtroopers’ that is tagged with the supersense tag ‘GROUP’. It is split into 5 subword units so the supersense tag feature is copied to all its five subword units. Furthermore, we add a none tag to all words that did not receive a supersense tag."
 
 ####  Job2 
@@ -80,8 +79,8 @@ Multi-Word Expressions (MWE) and the copied feature:
 "For each word that is split into subword units, we copy the features of the word in question to its subword units. In (3), we give an example with the word ‘stormtroopers’ that is tagged with the supersense tag ‘GROUP’ "
 For the MWEs we decided to copy the super- sense tag to all the words of the MWE (if provided by the tagger), as in (4). If the MWE did not receive a particular tag, we added the tag mwe to all its components, as in example (5)
 
-
 ####  Job6 Combined (SST–CCG)
+Discuss the separator (pipe).
 
 ####  Job 7 : contiguity tags versus boundary tags for mwe
 Replace _mwe  _mwe _mwe   by  | [mwe  |mwe  | ]mwe 
@@ -93,7 +92,6 @@ Replace _mwe  _mwe _mwe   by  | [mwe  |mwe  | ]mwe
 ####  Job10 upos with https://spacy.io/
 
 ####  Job  11 -> parsed information?
-
 
 
 ####  Report precision rates of the tools
@@ -108,9 +106,6 @@ Baseline (BPE) vs Syntactic (CCG) vs Semantic (SST) and Combined (SST–CCG) NMT
 
 (4) CCG tags with EasySRL tool (Lewis et al., 2015) 
 CCG tags provide global syntactic information on the lexical level 
-
-
-##
 
 
 
@@ -153,6 +148,7 @@ https://github.com/TalLinzen/rnn_agreement
 https://github.com/facebookresearch/colorlessgreenRNNs/tree/master/data
 
 
+
 ## 5. Problématiques diverses : Entraînement
 Comment s'assurer qu'un réseau de neurones est correctement entraîné ? "neural network learning curve"
 
@@ -160,16 +156,19 @@ OpenNMT et la réplication d'expérience.
 [Quelques paramètres d'entraînement](http://opennmt.net/OpenNMT-py/FAQ.html#how-do-i-use-the-transformer-model-do-you-support-multi-gpu).
 
 
+
 ## 6. Tâches et données typiques des conférences du domaine
 
 [WMT2019 tasks](http://www.statmt.org/wmt19/)
 
+News2013
 
 
 ## 7. DEADLINES FOR CONFERENCE PAPERS
 
+
 ### 25 Nov
-(special focus on Neural Networks)  LREC2020 (Marseille, May 11-16, 2020.  ) https://lrec2020.lrec-conf.org/
+(special focus on Neural Networks)  LREC2020 (Marseille, May 11-16, 2020) https://lrec2020.lrec-conf.org/
 https://lrec2020.lrec-conf.org/en/reprolang2020/call-for-papers/
 REPROLANG 2020
 Shared Task on the Reproduction of Research Results in Science and Technology of Language  
@@ -178,39 +177,52 @@ Vanmassenhove, Eva, and Andy Way. 2018. “SuperNMT: Neural Machine Translation 
 http://aclweb.org/anthology/P18-3010
 Major reproduction comparables: BLEU scores (tables 1 and 2; plots in figures 2, 3 and 4).
 
-### 9 décembre
-texte long JADT : https://jadt2020.sciencesconf.org/
-December 9, 2019
+
+### 18 novembre 
+abstract JADT : https://jadt2020.sciencesconf.org/
+
+### December 9, 2019
 deadline ACL main conf https://acl2020.org/calls/papers/
 
-### Feb
-possible deadlines for ACL sattelites : 
-[BLACKBOX] (https://blackboxnlp.github.io/) : workshop specialised in understanding neural networks for linguists
-https://www.aclweb.org/anthology/volumes/W19-48/
+### 13 janvier
+Article long JADT : : https://jadt2020.sciencesconf.org/
 
+### Feb
 FEB likely deadline for TALN (paper in French)
 [TALN](https://jep-taln2020.loria.fr/dates/)
 
+### April
+possible deadlines for ACL sattelites : 
+[BLACKBOX] (https://blackboxnlp.github.io/) : workshop specialised in understanding neural networks for linguists
+https://www.aclweb.org/anthology/volumes/W19-48/
+Workshop Paper Due Date 	April 6, 2020
+
 
 ### JUNE 
-Plausible deadline for The 5th Workshop on Multi-word Units in Machine Translation and Translation Technology (MUMTTT 2020) http://www.lexytrad.es/europhras2019/mumttt-2019-2/
+Plausible deadline for The 5th Workshop on Multi-word Units in Machine Translation and Translation Technology (MUMTTT 2020 in Louvain) http://www.lexytrad.es/europhras2019/mumttt-2019-2/
 Conf in Sept-Oct.
 RQ: can Multi-word-unit annotation inprove the training phase for neural networks?
-
 
 8-12 june 2020: [TALN](https://jep-taln2020.loria.fr/dates/) 
 16-19 juin 2020 TOULOUSE (France) [JADT2020](https://jadt2020.sciencesconf.org/)
 
 
-### JUILLET 
+### JULY
 ACL2020 : July 5th through July 10th, 2020. Seattle https://acl2020.org/
-WMT workshop 
+WMT workshop?
+Blackbox workshop
+
+
+### AUGUST
+31/08 -> 03/09 http://www.europhras.org/fr/component/jem/event/64-europhras-2020
+(MUMTTT 2020 in Louvain)  
+
+
 
 
 ## BIBLIOGRAPHIE
 Taylor Arnold et al. 2019 *A Computational Approach to Statistical Learning* CRC Press. 
 (see  chapter 8 on neural networks, code in R) 
-
 
 ## Notes
 Autres systèmes : [Nematus](https://github.com/EdinburghNLP/nematus)
