@@ -2,13 +2,14 @@
 # TODO 
 
 ## 0. Améliorer le script pour lancer à distance des entraînements d'OpenNMT sur du GPU
-Nabil continue d'explorer les caractéristiques des différents paramètres d'OpenNMT, eg utiliser tensorboard pour le suivi de l'apprentissage. Les paramètres peuvent faire l'objet de commentaire sur la page NN. Différentes solutions de traitement de sonnées sont à tester dont https://edu.google.com/ .
+Nabil continue d'explorer les caractéristiques des différents paramètres d'OpenNMT, eg utiliser tensorboard pour le suivi de l'apprentissage. Les paramètres peuvent faire l'objet de commentaire sur la page NN. Différentes solutions de traitement de données sont à tester, dont https://edu.google.com/ .
 
 
 ## 1. Améliorer le jeu de données initial (13 époques, score bleu).
 Permettre la comparabilité avec le premier jeu de données produit.  
 Adjoindre le WER (via github?), voire le score ROUGE et les visualisations TensorFlow. Les données de tests et d'entraînement sont dans data.farm.zip. A moyen terme, permettre à NB d'avoir la main pour lancer les expés puis aux linguistes de récupérer les modèles entraînés.
 Par exemple en utilisant [un outil trouvé sur GitHub ?](https://github.com/jitsi/asr-wer/blob/master/jiwer/wer.py)
+
 
 
 ## 2. Article sur la réplicabilité (Nematus, données annotées)
@@ -92,6 +93,14 @@ Replace _mwe  _mwe _mwe   by  | [mwe  |mwe  | ]mwe
 ####  Job10 upos with https://spacy.io/
 
 ####  Job  11 -> parsed information?
+
+### Job 12 alternative annotations of MWE
+[MWEToolkit3](https://gitlab.com/mwetoolkit/mwetoolkit3)
+[backrground reading on MWE detection](https://m2if.lis-lab.fr/doku.php?id=20142015:memoire:sujets#unsupervised_extraction_of_multiword_expressions_from_word_alignments_and_integration_with_mwetoolkit)
+
+### Report precision of tagging for MWE
+[CLARIN gold corpus of manually annotated verbal MWE](https://lindat.mff.cuni.cz/repository/xmlui/handle/11372/LRT-2842#)
+Estimate precision and recall of MWE annotation against gold corpora.
 
 
 ####  Report precision rates of the tools
@@ -178,18 +187,19 @@ http://aclweb.org/anthology/P18-3010
 Major reproduction comparables: BLEU scores (tables 1 and 2; plots in figures 2, 3 and 4).
 
 
-### 18 novembre 
+### November 18th
 abstract JADT : https://jadt2020.sciencesconf.org/
 
-### December 9, 2019
+### December 9th, 2019
 deadline ACL main conf https://acl2020.org/calls/papers/
 
-### 13 janvier
-Article long JADT : : https://jadt2020.sciencesconf.org/
+### January, 13th
+[Article long JADT]: https://jadt2020.sciencesconf.org/
 
-### Feb
-FEB likely deadline for TALN (paper in French)
-[TALN](https://jep-taln2020.loria.fr/dates/)
+### 31 janvier 
+deadline for TALN (paper in French)
+[articleTALN](https://jep-taln2020.loria.fr/taln/)
+
 
 ### April
 possible deadlines for ACL sattelites : 
