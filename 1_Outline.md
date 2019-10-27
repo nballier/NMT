@@ -2,12 +2,13 @@
 # TODO 
 
 ## 0. Améliorer le script pour lancer à distance des entraînements d'OpenNMT sur du GPU
-Nabil continue d'explorer les caractéristiques des différents paramètres d'OpenNMT, eg utiliser tensorboard pour le suivi de l'apprentissage. Les paramètres peuvent faire l'objet de commentaire sur la page NN. Différentes solutions de traitement de données sont à tester, dont https://edu.google.com/ .
+Nabil continue d'explorer les caractéristiques des différents paramètres d'OpenNMT, eg utiliser tensorboard pour le suivi de l'apprentissage. Les paramètres peuvent faire l'objet de commentaire sur la page [NN](https://github.com/nballier/NMT/blob/master/2.%20NN.md). Différentes solutions de traitement de données sont à tester, dont https://edu.google.com/ .
 
-## 1. Améliorer le jeu de données initial (13 époques, score bleu).
-Permettre la comparabilité avec le premier jeu de données produit.  
+## 1. Améliorer le jeu de données initial (13 époques, score BLEU).
+Permettre la comparabilité avec le premier jeu de données produit.
+Ajouter dans le tableau en deuxième colonne la traduction "attendue" (le tgt.test.txt).
 Adjoindre le WER (via github?), voire le score ROUGE et les visualisations TensorFlow. Les données de tests et d'entraînement sont dans data.farm.zip. A moyen terme, permettre à NB d'avoir la main pour lancer les expés puis aux linguistes de récupérer les modèles entraînés. Par exemple, en utilisant [un outil trouvé sur GitHub ?](https://github.com/jitsi/asr-wer/blob/master/jiwer/wer.py)
-A des fins de comparabilité pour les baselines, il serait judicieux de procéder à un pré-traitement type PBE pour voir si le nombre de scores BLEU négatifs diminue et si les mêmes phases sont observables. Il faut également relancer l'entraînement avec l'outil de visualisation TensorFlow.
+A des fins de comparabilité pour les baselines, il serait judicieux de procéder à un pré-traitement type PBE pour voir si le nombre de scores BLEU négatifs diminue et si les mêmes phases sont observables. Tester avec 90000 et 30000 opérations. Il faut également relancer l'entraînement avec l'outil de visualisation TensorFlow.
 
 
 ## 2. Article sur la réplicabilité (Nematus, données annotées)
@@ -224,8 +225,6 @@ Blackbox workshop
 ### AUGUST
 31/08 -> 03/09 http://www.europhras.org/fr/component/jem/event/64-europhras-2020
 (MUMTTT 2020 in Louvain)  
-
-
 
 
 ## BIBLIOGRAPHIE
