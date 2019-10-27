@@ -4,12 +4,10 @@
 ## 0. Améliorer le script pour lancer à distance des entraînements d'OpenNMT sur du GPU
 Nabil continue d'explorer les caractéristiques des différents paramètres d'OpenNMT, eg utiliser tensorboard pour le suivi de l'apprentissage. Les paramètres peuvent faire l'objet de commentaire sur la page NN. Différentes solutions de traitement de données sont à tester, dont https://edu.google.com/ .
 
-
 ## 1. Améliorer le jeu de données initial (13 époques, score bleu).
 Permettre la comparabilité avec le premier jeu de données produit.  
-Adjoindre le WER (via github?), voire le score ROUGE et les visualisations TensorFlow. Les données de tests et d'entraînement sont dans data.farm.zip. A moyen terme, permettre à NB d'avoir la main pour lancer les expés puis aux linguistes de récupérer les modèles entraînés.
-Par exemple en utilisant [un outil trouvé sur GitHub ?](https://github.com/jitsi/asr-wer/blob/master/jiwer/wer.py)
-
+Adjoindre le WER (via github?), voire le score ROUGE et les visualisations TensorFlow. Les données de tests et d'entraînement sont dans data.farm.zip. A moyen terme, permettre à NB d'avoir la main pour lancer les expés puis aux linguistes de récupérer les modèles entraînés. Par exemple, en utilisant [un outil trouvé sur GitHub ?](https://github.com/jitsi/asr-wer/blob/master/jiwer/wer.py)
+A des fins de comparabilité pour les baselines, il serait judicieux de procéder à un pré-traitement type PBE pour voir si le nombre de scores BLEU négatifs diminue et si les mêmes phases sont observables. Il faut également relancer l'entraînement avec l'outil de visualisation TensorFlow.
 
 
 ## 2. Article sur la réplicabilité (Nematus, données annotées)
@@ -233,6 +231,10 @@ Blackbox workshop
 ## BIBLIOGRAPHIE
 Taylor Arnold et al. 2019 *A Computational Approach to Statistical Learning* CRC Press. 
 (see  chapter 8 on neural networks, code in R) 
+
+Servan, Chr., Crego, J and Senellart, J. (2017) Adaptation incrémentale de modèles de traduction neuronaux. In I. Eshkol and J.-Y. Antoine (Eds.) 24e Conférence sur le Traitement Automatique des Langues Naturelles TALN2017.  [218-226](
+taln2017.cnrs.fr/wp-content/uploads/2017/06/actes_TALN_2017-vol2Final.pdf#page=230)
+
 
 ## Notes
 Autres systèmes : [Nematus](https://github.com/EdinburghNLP/nematus)
