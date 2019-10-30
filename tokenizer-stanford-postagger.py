@@ -44,8 +44,10 @@ source = open(args.source,'r')
 destination = open(args.destination, 'w+')
 doc = tagger.tag(source)
 
+separator = input("\nWhich separator would you like to use?:\n")
+
 for token in doc:
-	destination.write(token[0] + '#' + token[1] + "\n")
+	destination.write(token[0] + separator + token[1] + "\n")
 
 destination.close()
 source.close()
