@@ -18,6 +18,7 @@ The default translation mode allows the model to produce the <unk> symbol when i
 **JB** 
 1. tester avec les 100 dernières phrases du corpus d'entraînement
 2. tester avec the - replace_unk option
+3. lancer avec plus d'époques
 
 
 
