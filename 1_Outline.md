@@ -7,8 +7,16 @@ Nabil continue d'explorer les caractéristiques des différents paramètres d'Op
 ## 1. Améliorer le jeu de données initial (13 époques, score BLEU).
 Permettre la comparabilité avec le premier jeu de données produit.
 Ajouter dans le tableau en deuxième colonne la traduction "attendue" (le tgt.test.txt).
-Adjoindre le WER (via github?), voire le score ROUGE et les visualisations TensorFlow. Les données de tests et d'entraînement sont dans data.farm.zip. A moyen terme, permettre à NB d'avoir la main pour lancer les expés puis aux linguistes de récupérer les modèles entraînés. Par exemple, en utilisant [un outil trouvé sur GitHub ?](https://github.com/jitsi/asr-wer/blob/master/jiwer/wer.py)
-A des fins de comparabilité pour les baselines, il serait judicieux de procéder à un pré-traitement type PBE pour voir si le nombre de scores BLEU négatifs diminue et si les mêmes phases sont observables. Tester avec 90000 et 30000 opérations. Il faut également relancer l'entraînement avec l'outil de visualisation TensorFlow.
+Adjoindre le WER (via github?), voire le score ROUGE et les visualisations TensorFlow. Les données de tests et d'entraînement sont dans data.farm.zip. A moyen terme, permettre à NB d'avoir la main pour lancer les expés puis aux linguistes de récupérer les modèles entraînés.https://github.com/nballier/NMT/blob/master/1_Outline.md Par exemple, en utilisant [un outil trouvé sur GitHub ?](https://github.com/jitsi/asr-wer/blob/master/jiwer/wer.py)
+A des fins de comparabilité pour les baselines, il serait judicieux de procéder à un pré-traitement type PBE pour voir si le nombre de scores BLEU négatifs diminue et si les mêmes phases sont observables. Tester avec 90000 et 30000 opérations. Il faut également relancer l'entraînement avec l'outil de visualisation TensorFlow. \\
+Il serait intéressant de jouer avec ces deux options : 
+
+**Unknown words : retrain the dataset with the two parameters**
+The default translation mode allows the model to produce the <unk> symbol when it is not sure of the specific target word. Often times <unk> symbols will correspond to proper names that can be directly transposed between languages. The - replace_unk option will substitute <unk> with source words that have the highest attention weight. The
+- replace_unk_tagged option will do the same, but wrap the token in a ｟unk:xxxxx｠ tag.
+
+
+
 
 
 ## 2. Article sur la réplicabilité (Nematus, données annotées)
