@@ -15,20 +15,27 @@ def display_models_list(model_list):
                 print("["+ str(cmp) +"] " + elt)
                 cmp+=1
 
+def list_models_empty(list_models, stanford_dir, model_type):
+	for dirpath, dirnames, filenames in os.walk(stanford_dir):
+		for f in filenames:
+			if f.find(model_type) != -1 and f.find("props") == -1:
+				list_models.append(f)
+	if not list_models:
+		model_type = input("\nWrong language. Pick another one:\n")
+		print(model_type)
+		list_models_empty(list_models, stanford_dir, model_type)
+
 
 print("models available:")
-list_models =[]
 
+list_models = []
 for dirpath, dirnames, filenames in os.walk("/"):
 	for d in dirnames:
 		if d.find("stanford-postagger-full") != -1:
 			stanford_dir = d
 			break
 
-for dirpath, dirnames, filenames in os.walk(stanford_dir):
-	for f in filenames:
-		if f.find(args.language_core) != -1 and f.find("props") == -1:
-			list_models.append(f)
+list_models_empty(list_models, stanford_dir, args.language_core)
 
 display_models_list(list_models)
 
