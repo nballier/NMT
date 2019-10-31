@@ -40,7 +40,7 @@ list_models_empty(list_models, stanford_dir, args.language_core)
 display_models_list(list_models)
 
 number_modelfile = input("\nWhich one would do like to use?:\n")
-while int(number_modelfile) <=0 or int(number_modelfile) >= len(list_models):
+while int(number_modelfile)-1 <=0 or int(number_modelfile)-1 >= len(list_models):
 	display_models_list(list_models)
 	number_modelfile = input("\nWrong model. Pick another one:\n")
 
