@@ -11,6 +11,6 @@ source = open(args.source,'r')
 dest = open(args.destination,'w+')
 doc = nlp(source.read())
 for token in doc:
-    dest.write(token.text+ '\n')
+    dest.write(token.text+ ' ')
 source.close()
 dest.close()
