@@ -97,7 +97,7 @@ Replace _mwe  _mwe _mwe   by  | [mwe  |mwe  | ]mwe
 
 ####  Job 9 combined info (to be discussed)
 
-####  Job10 upos with https://spacy.io/
+####  Job10 Named Entities Recognition and upos with https://spacy.io/
 
 ####  Job  11 -> parsed information?
 
