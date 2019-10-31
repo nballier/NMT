@@ -9,6 +9,16 @@ parser.add_argument('-dst', '--destination', required=True)
 parser.add_argument('-lg_core' ,'--language_core' ,required=True)
 args = parser.parse_args()
 
+list_punc = [".", ",", ";", "\'", "?", "!"]
+
+def put_space_in_file():
+	with open(args.source, 'r') as f:
+		file = f.read()
+	for elt in list_punc:
+		file = file.replace(elt, " "+elt)
+	with open(args.source, 'w') as f:
+		f.write(file)
+
 def display_models_list(model_list):
         cmp = 1
         for elt in list_models:
@@ -40,13 +50,14 @@ list_models_empty(list_models, stanford_dir, args.language_core)
 display_models_list(list_models)
 
 number_modelfile = input("\nWhich one would do like to use?:\n")
-while int(number_modelfile)-1 <=0 or int(number_modelfile)-1 >= len(list_models):
+while int(number_modelfile)-1 <0 or int(number_modelfile)-1 >= len(list_models):
 	display_models_list(list_models)
 	number_modelfile = input("\nWrong model. Pick another one:\n")
 
 modelfile = stanford_dir+"/models/"+list_models[int(number_modelfile)-1]
 jarfile=stanford_dir+"/stanford-postagger.jar"
 tagger = StanfordPOSTagger(modelfile, jarfile)
+put_space_in_file()
 source = open(args.source,'r')
 destination = open(args.destination, 'w+')
 doc = tagger.tag(source)
@@ -54,7 +65,8 @@ doc = tagger.tag(source)
 separator = input("\nWhich separator would you like to use?:\n")
 
 for token in doc:
-	destination.write(token[0] + separator + token[1] + "\n")
+	if token[1] in list_punc: destination.write(token[0] + separator + "PUNC" + "\n")
+	else: destination.write(token[0] + separator + token[1] + "\n")
 
 destination.close()
 source.close()
