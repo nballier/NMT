@@ -232,8 +232,8 @@ RQ: can Multi-word-unit annotation inprove the training phase for neural network
 ### JULY
 ACL2020 : July 5th through July 10th, 2020. Seattle https://acl2020.org/
 WMT workshop?
-Blackbox workshop
-
+[Blackbox workshop](https://blackboxnlp.github.io/) @EMLP2020
+[DEELIO](https://sites.google.com/view/deelio-ws/)
 
 ### AUGUST
 31/08 -> 03/09 http://www.europhras.org/fr/component/jem/event/64-europhras-2020
@@ -244,9 +244,8 @@ Blackbox workshop
 Taylor Arnold et al. 2019 *A Computational Approach to Statistical Learning* CRC Press. 
 (see  chapter 8 on neural networks, code in R) 
 
-Servan, Chr., Crego, J and Senellart, J. (2017) Adaptation incrémentale de modèles de traduction neuronaux. In I. Eshkol and J.-Y. Antoine (Eds.) 24e Conférence sur le Traitement Automatique des Langues Naturelles TALN2017.  [218-226](
-taln2017.cnrs.fr/wp-content/uploads/2017/06/actes_TALN_2017-vol2Final.pdf#page=230)
 
+Servan, Chr., Crego, J and Senellart, J. (2017) Adaptation incrémentale de modèles de traduction neuronaux. In I. Eshkol and J.-Y. Antoine (Eds.) 24e Conférence sur le Traitement Automatique des Langues Naturelles TALN2017.  [218-226](taln2017.cnrs.fr/wp-content/uploads/2017/06/actes_TALN_2017-vol2Final.pdf#page=230)
 
 ## Notes
 Autres systèmes : [Nematus](https://github.com/EdinburghNLP/nematus)
