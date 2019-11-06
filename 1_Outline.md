@@ -232,7 +232,7 @@ RQ: can Multi-word-unit annotation inprove the training phase for neural network
 ### JULY
 ACL2020 : July 5th through July 10th, 2020. Seattle https://acl2020.org/
 WMT workshop?
-[Blackbox workshop](https://blackboxnlp.github.io/) @EMLP2020
+July 15 deadline [Blackbox workshop](https://blackboxnlp.github.io/) @EMLP2020
 [DEELIO](https://sites.google.com/view/deelio-ws/)
 
 ### AUGUST
