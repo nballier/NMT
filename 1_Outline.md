@@ -8,7 +8,6 @@ Nabil continue d'explorer les caractéristiques des différents paramètres d'Op
 ## 0bis identifier les articles rédigés à paropos des deux grandes versions repérées pour OpenNMT.
 
 
-
 ## 1. Améliorer le jeu de données initial (13 époques, score BLEU).
 Permettre la comparabilité avec le premier jeu de données produit.
 Ajouter dans le tableau en deuxième colonne la traduction "attendue" (le tgt.test.txt).
@@ -23,7 +22,10 @@ The default translation mode allows the model to produce the <unk> symbol when i
 **JB** 
 1. tester avec les 100 dernières phrases du corpus d'entraînement : DONE
 2. tester avec the - replace_unk option : option disparue?
-3. lancer avec plus d'époques
+3. lancer avec plus encore plus d'époques
+4. calculer le delta entre deux époques pour le score BLEU : différence 
+
+
 
 
 
