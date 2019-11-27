@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import argparse
+import sys
 
 def create_plot(input_files,output_file,legends):
     if(len(input_files) == len(legends)):
@@ -24,9 +25,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-i","--input",nargs='+')
     parser.add_argument("-o","--output")
-    parser.add_argument("-l","--legend",nargs='+')    
+    parser.add_argument("-l","--legend",nargs='+')
     args = parser.parse_args()
-    if(len(args) != 0):
+    if(len(sys.argv) > 1):
         create_plot(args.input,args.output,args.legend)
     else:
         print("No paramaters.")
