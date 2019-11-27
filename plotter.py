@@ -5,14 +5,14 @@ import argparse
 def create_plot(input_files,output_file,legends):
     if(len(input_files) == len(legends)):
         ax = plt.gca()
-        ax.set_ylim(0,25)
-        ax.set_xlim(0,160000)
         for i in range(len(input_files)):
             data = pd.read_csv(input_files[i],sep= " ", header = None)
             data.columns = ["Iterations","BLEU Score"]
             data.plot(kind='line',x='Iterations',y='BLEU Score',ax=ax)
             ax.set_ylabel("BLEU Score")
             ax.set_xlabel("Iterations")
+            ax.set_ylim(0,25)
+            ax.set_xlim(0,160000)
         ax.legend(legends)
         plt.savefig(output_file)
     elif(len(input_files) > len(legends)):
@@ -26,4 +26,7 @@ if __name__ == "__main__":
     parser.add_argument("-o","--output")
     parser.add_argument("-l","--legend",nargs='+')    
     args = parser.parse_args()
-    create_plot(args.input,args.output,args.legend)
+    if(len(args) != 0):
+        create_plot(args.input,args.output,args.legend)
+    else:
+        print("No paramaters.")
