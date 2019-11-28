@@ -1,12 +1,14 @@
 
 # TODO 
 
-
 ## 0. Améliorer le script pour lancer à distance des entraînements d'OpenNMT sur du GPU
 Nabil continue d'explorer les caractéristiques des différents paramètres d'OpenNMT, eg utiliser tensorboard pour le suivi de l'apprentissage. Les paramètres peuvent faire l'objet de commentaire sur la page [NN](https://github.com/nballier/NMT/blob/master/2.%20NN.md). Différentes solutions de traitement de données sont à tester, dont https://edu.google.com/ .
 
 
 ## 0bis identifier les articles rédigés à paropos des deux grandes versions repérées pour OpenNMT.
+TensorFlow versus Pytorch
+articles équivalents 
+
 
 
 ## 1. Améliorer le jeu de données initial (13 époques, score BLEU).
@@ -18,6 +20,9 @@ Il serait intéressant de jouer avec ces deux options :
 **Unknown words : retrain the dataset with the two parameters**
 The default translation mode allows the model to produce the <unk> symbol when it is not sure of the specific target word. Often times <unk> symbols will correspond to proper names that can be directly transposed between languages. The - replace_unk option will substitute <unk> with source words that have the highest attention weight. The
 - replace_unk_tagged option will do the same, but wrap the token in a ｟unk:xxxxx｠ tag.
+  
+  
+  
 
 **JB** 
 1. tester avec les 100 dernières phrases du corpus d'entraînement : DONE
@@ -38,24 +43,34 @@ https://www.statmt.org/europarl/v7/fr-en.tgz
 et News-2013: extraction à discuter de
 http://www.statmt.org/wmt14/translation-task.html
 
-### Extractions données
-Extraire 5K phrases de newstest2013
+-> RESTREINDRE à 1M mots à partir du début pour l'anglais et couper les corpus français et allemand équivalents. 
+-> Récupérer l'équivalent taggué sous CCG. 
+
+## script de plots (panda,numpy) 
+
+### Extractions données tests: OK 
+- pour le corpus de test Europarl: compilation (4957 ph en anglais ) test5k.en et 5,213 pour test5k.fr : OK
+- Extraire 5K phrases de newstest2013: (2,932 sentences): newstest2013.en (OK pour 3,072 phrases .de et .fr) OK
+
 
 
 ### Voici les premiers jobs à lancer:
 
-#### Job 0. en deux fois, pour les deux couples de langues à chaque étape. 
 
+#### Job 0. en deux fois, pour les deux couples de langues à chaque étape et pour les fichiers de 
 Europarl en brut avec les paramètres d'entrainement donnés pour nematus
-(EN-FR,EN-DE)
-Extraire 5K phrases pour corpus de validation (à réutiliser en test)
+(EN-FR,EN-DE). Le fichier de départ compte 2M de phrases. Nous avons un fichier d'entraînement à 2M de mots (EN-FE-DE). Nous avons extrait le premier million de mots pour la reproduction de l'expérience.
+
 
 ####  Job 1<br/>
 Europarl "tokenisé": word-segmentation with PBE (with 89,500 operations) <br/>
 BPE-Encoding:(python) <br/>
 https://github.com/rsennrich/subword-nmt <br/>
+
 "To reduce the number of out-of-vocabulary (OOV) words, we follow the approach of Sennrich et al. (2016) using a variant of BPE for word segmentation capable of encoding open vocabularies with a compact symbol vocabulary of variable- length subword units. For each word that is split into subword units, we copy the features of the word in question to its subword units. 
 In (3), we give an example with the word ‘stormtroopers’ that is tagged with the supersense tag ‘GROUP’. It is split into 5 subword units so the supersense tag feature is copied to all its five subword units. Furthermore, we add a none tag to all words that did not receive a supersense tag."
+
+
 
 ####  Job2 
 texte anglais annoté, texte français sans annotation 
@@ -68,9 +83,13 @@ JAVA (English)
 https://nlp.stanford.edu/software/stanford-postagger-full-2018-10-16.zip
 or Python: http://www.nltk.org/_modules/nltk/tag/stanford.html#CoreNLPPOSTagger
 
+-> à réduire à 1M de mots.
+-> 
+
 ####  Job3 texte anglais annoté, texte cible (allemand et français) annoté
 German : https://nlp.stanford.edu/software/stanford-postagger-full-2016-10-31.zip
 French : https://nlp.stanford.edu/software/stanford-postagger-full-2014-06-16.zip
+
 
 ####  Job 4 CCG tags with EasySRL 
 EasySRL tool (Lewis et al., 2015)
@@ -86,12 +105,13 @@ Supersenses:
 https://github.com/nschneid/pysupersensetagger
 "To obtain the supersense tags we used the AMALGrAM (A Machine Analyzer of Lexical Groupings and Meanings) 2.0 tool 1" 
 
+
 For post-edition of MWE:
 http://www.cs.cmu.edu/~ark/LexSem/
-
 Multi-Word Expressions (MWE) and the copied feature:  
 "For each word that is split into subword units, we copy the features of the word in question to its subword units. In (3), we give an example with the word ‘stormtroopers’ that is tagged with the supersense tag ‘GROUP’ "
 For the MWEs we decided to copy the super- sense tag to all the words of the MWE (if provided by the tagger), as in (4). If the MWE did not receive a particular tag, we added the tag mwe to all its components, as in example (5)
+
 
 ####  Job6 Combined (SST–CCG)
 Discuss the separator (pipe).
