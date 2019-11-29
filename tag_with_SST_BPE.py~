@@ -1,0 +1,34 @@
+import argparse
+import os
+
+parser = argparse.ArgumentParser()
+
+parser.add_argument('-sBPE', '--source_BPE', required=True)
+parser.add_argument('-sSST', '--source_SST', required=True)
+parser.add_arguments('-dst', '--destination', required=True)
+args = parser.parse_args()
+
+source_BPE = open(args.source_BPE, 'r')
+source_SST = open(args.Source_SST, 'r')
+
+list_words_BPE = []
+for lines in source_BPE.readlines():
+        list_words_BPE += lines.split(' ')
+source_BPE.close()
+list_words_BPE = [words for words in list_words_BPE if words != '\n']
+print(list_words_BPE)
+
+list_words_SST = []
+for lines in source_SST.readlines():
+        list_words_SST += lines.split(' ')
+source_SST.close()
+list_words_SST = [words for words in list_words_SST if words != '\n']
+print(list_words_SST)
+
+destination = open(args.destination, 'a+')
+for i in range(0, len(list_words_BPE)):
+    if list_words_BPE[i].find("@@"):
+        list_words_BPE[i].replace("@@","|"+list_words_SST[i].split("|")[1])
+    destination.write(list_words_BPE[i]+' ')
+
+destination.close()
