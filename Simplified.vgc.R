@@ -33,7 +33,7 @@ europarl.lower <-tolower(europarl)
 library(zipfR)
 library(languageR)
 
-compare.richness.fnc(europarl.lower[1:1000000],europarl.BPE2.lower[1:1000000]) # press wins 
+compare.richness.fnc(europarl.lower[1:1000000],europarl.BPE2.lower[1:1000000]) # 
 
 
 
