@@ -274,6 +274,8 @@ July 15 deadline [Blackbox workshop](https://blackboxnlp.github.io/) @EMLP2020
 ### APPELS A PROJETS
 https://u-paris.fr/appel-a-manifestation-dinteret-pre-maturation/
 
+http://www.eamt.org/news/news_call_for_proposals2020.php
+
 ## BIBLIOGRAPHIE
 Taylor Arnold et al. 2019 *A Computational Approach to Statistical Learning* CRC Press. 
 (see  chapter 8 on neural networks, code in R) 
