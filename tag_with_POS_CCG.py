@@ -30,6 +30,6 @@ for i in range(0, len(list_words_POS)-1):
 destination = open(args.destination, 'a+')
 for i in range(0, len(list_words_CCG)):
 	word = list_words_CCG[i].split("|", 1)
-	destination.write(word[0]+"|"+list_words_POS[i]+"|"+word[1]+"\n")
+	destination.write(word[0]+"|"+list_words_POS[i]+"|"+word[1]+" ")
 
 destination.close()

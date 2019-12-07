@@ -2,7 +2,7 @@
 # tag_with_SST_CCG.py
 # tag_with_POS_CCG.py
 # tag_with_SST_BPE_CCG.py
-# add_tag_to_untagg_words.py
+# add_tag_and_mwe_to_untagg_words.py
 
 The tag_with_SST_BPE script gives a text tag with both SST and BPE according to the "SuperNMT: Neural Machine Translation with Semantic Supersenses and Syntactic Supertags" paper 
 
@@ -81,7 +81,7 @@ The **-dst** argument is the location where you wan to put your file
 
 
 
-The add_tagg_to_untagg_words script tagg untagg words with |none and expression with |mwe or |GROUP (which is the group of the expression) according to the "SuperNMT: Neural Machine Translation with Semantic Supersenses and Syntactic Supertags" paper 
+The add_tagg_and_mwe_to_untagg_words script tagg untagg words with |none and expression with |mwe or |GROUP (which is the group of the expression) according to the "SuperNMT: Neural Machine Translation with Semantic Supersenses and Syntactic Supertags" paper 
 
 It takes a text file and outputs the completed tagged file.
 
