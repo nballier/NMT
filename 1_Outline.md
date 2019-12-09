@@ -5,14 +5,14 @@
 Nabil continue d'explorer les caractéristiques des différents paramètres d'OpenNMT, eg utiliser tensorboard pour le suivi de l'apprentissage. Les paramètres peuvent faire l'objet de commentaire sur la page [NN](https://github.com/nballier/NMT/blob/master/2.%20NN.md). Différentes solutions de traitement de données sont à tester, dont https://edu.google.com/ .
 
 
-
 ## 0bis identifier les articles rédigés à paropos des deux grandes versions repérées pour OpenNMT.
 TensorFlow versus Pytorch
 articles équivalents 
+Docker équivalents 
 
 
-
-## 1. Améliorer le jeu de données initial (13 époques, score BLEU).
+## 1. ARTICLE JADT (deadline 13 janvier)
+1. Améliorer le jeu de données initial (13 époques, score BLEU).
 Permettre la comparabilité avec le premier jeu de données produit.
 Ajouter dans le tableau en deuxième colonne la traduction "attendue" (le tgt.test.txt).
 Adjoindre le WER (via github?), voire le score ROUGE et les visualisations TensorFlow. Les données de tests et d'entraînement sont dans data.farm.zip. A moyen terme, permettre à NB d'avoir la main pour lancer les expés puis aux linguistes de récupérer les modèles entraînés.https://github.com/nballier/NMT/blob/master/1_Outline.md Par exemple, en utilisant [un outil trouvé sur GitHub ?](https://github.com/jitsi/asr-wer/blob/master/jiwer/wer.py)
@@ -21,29 +21,23 @@ Il serait intéressant de jouer avec ces deux options :
 **Unknown words : retrain the dataset with the two parameters**
 The default translation mode allows the model to produce the <unk> symbol when it is not sure of the specific target word. Often times <unk> symbols will correspond to proper names that can be directly transposed between languages. The - replace_unk option will substitute <unk> with source words that have the highest attention weight. The
 - replace_unk_tagged option will do the same, but wrap the token in a ｟unk:xxxxx｠ tag.
-  
-  
-  
 
 **JB** 
 1. tester avec les 100 dernières phrases du corpus d'entraînement : DONE
 2. tester avec the - replace_unk option : option disparue?
-3. lancer avec plus encore plus d'époques
+3. lancer avec plus encore plus d'époques : 30 
 4. calculer le delta entre deux époques pour le score BLEU : différence 
-
-
-
 
 ## 2. Article sur la réplicabilité (Nematus, données annotées) 
 
-### Données Europarl
+
+### Données Europarl : chercher versions plus propres
 DE-EN
 https://www.statmt.org/europarl/v7/de-en.tgz
 FR-EN
 https://www.statmt.org/europarl/v7/fr-en.tgz
 et News-2013: extraction à discuter de
 http://www.statmt.org/wmt14/translation-task.html
-
 
 TODO -> RESTREINDRE à 1M mots à partir du début pour l'anglais et couper les corpus français et allemand équivalents. 
 -> Récupérer l'équivalent taggué sous CCG: version française500K  to ensure that.
@@ -151,15 +145,18 @@ Baseline (BPE) vs Syntactic (CCG) vs Semantic (SST) and Combined (SST–CCG) NMT
 (4) CCG tags with EasySRL tool (Lewis et al., 2015) 
 CCG tags provide global syntactic information on the lexical level 
 
+### Article 3: TALN  (31 janvier)
+
+
+### Article 4: 
+
 
 
 ## 3. Implémenter les solutions de visualisation développée dans les travaux de Montavon
 http://www.heatmapping.org/
 http://heatmapping.org/tutorial.
 https://arxiv.org/pdf/1706.07979.pdf
-
 Montavon [Vidéo](https://www.youtube.com/watch?v=gy_Cb4Do_YE)
-
 
 ## 4. pouvoir répliquer les trois papiers réplicables avec des données français/anglais :
 
@@ -168,8 +165,6 @@ Belinkov, Y., Durrani, N., Dalvi, F., Sajjad, H., & Glass, J. (2017). What do ne
 https://arxiv.org/pdf/1704.03471.pdf
 https://github.com/boknilev/nmt-repr-analysis
 The lua code relies on a sed2seq attention model https://github.com/harvardnlp/seq2seq-attn now superseded by OpenNMT.
-
-
 
 
 @inproceedings{evaluating-fine-grained-semantic-phenomena-in-neural-machine-translation-encoders-using-entailment,
@@ -214,6 +209,9 @@ News2013
 
 ## 7. DEADLINES FOR CONFERENCE PAPERS
 
+### November 18th
+abstract JADT : https://jadt2020.sciencesconf.org/
+
 ### 25 Nov
 (special focus on Neural Networks)  LREC2020 (Marseille, May 11-16, 2020) https://lrec2020.lrec-conf.org/
 https://lrec2020.lrec-conf.org/en/reprolang2020/call-for-papers/
@@ -224,32 +222,32 @@ Vanmassenhove, Eva, and Andy Way. 2018. “SuperNMT: Neural Machine Translation 
 http://aclweb.org/anthology/P18-3010
 Major reproduction comparables: BLEU scores (tables 1 and 2; plots in figures 2, 3 and 4).
 
-
-### November 18th
-abstract JADT : https://jadt2020.sciencesconf.org/
-
-### December 9th, 2019
+### December 9th, 2019 : POSTPONED to ACL2021 ;)
 deadline ACL main conf https://acl2020.org/calls/papers/
 
 ### January, 13th
 [Article long JADT]: https://jadt2020.sciencesconf.org/
 
-
 ### 31 janvier 
 deadline for TALN (paper in French)
 [articleTALN](https://jep-taln2020.loria.fr/taln/)
 
+### JADT notification
+Camera-ready due: 10 March
+
+### Feb 13 th LREC2020 Notification
+Camera-ready due: 6 March.
+
 ### 6 mars 
+8 page paper + 2 page project 
 Lisbonne: http://www.eamt.org/news/news_cfp_eamt_2020.php
 https://eamt2020.inesc-id.pt/
-
 
 ### April
 possible deadlines for ACL sattelites : 
 [BLACKBOX] (https://blackboxnlp.github.io/) : workshop specialised in understanding neural networks for linguists
 https://www.aclweb.org/anthology/volumes/W19-48/
 Workshop Paper Due Date 	April 6, 2020
-
 
 ### JUNE 
 Plausible deadline for The 5th Workshop on Multi-word Units in Machine Translation and Translation Technology (MUMTTT 2020 in Louvain) http://www.lexytrad.es/europhras2019/mumttt-2019-2/
@@ -258,7 +256,6 @@ RQ: can Multi-word-unit annotation inprove the training phase for neural network
 
 8-12 june 2020: [TALN](https://jep-taln2020.loria.fr/dates/) 
 16-19 juin 2020 TOULOUSE (France) [JADT2020](https://jadt2020.sciencesconf.org/)
-
 
 ### JULY
 ACL2020 : July 5th through July 10th, 2020. Seattle https://acl2020.org/
@@ -276,6 +273,7 @@ https://u-paris.fr/appel-a-manifestation-dinteret-pre-maturation/
 
 http://www.eamt.org/news/news_call_for_proposals2020.php
 
+
 ## BIBLIOGRAPHIE
 Taylor Arnold et al. 2019 *A Computational Approach to Statistical Learning* CRC Press. 
 (see  chapter 8 on neural networks, code in R) 
@@ -286,7 +284,6 @@ Servan, Chr., Crego, J and Senellart, J. (2017) Adaptation incrémentale de mod�
 
 ## Notes
 Autres systèmes : [Nematus](https://github.com/EdinburghNLP/nematus)
-
 
 
 
