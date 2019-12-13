@@ -1,9 +1,84 @@
-
 # TODO 
 
-## 0. Améliorer le script pour lancer à distance des entraînements d'OpenNMT sur du GPU
-Nabil continue d'explorer les caractéristiques des différents paramètres d'OpenNMT, eg utiliser tensorboard pour le suivi de l'apprentissage. Les paramètres peuvent faire l'objet de commentaire sur la page [NN](https://github.com/nballier/NMT/blob/master/2.%20NN.md). Différentes solutions de traitement de données sont à tester, dont https://edu.google.com/ .
+## DEADLINES FOR CONFERENCE PAPERS
 
+### November 18th
+abstract JADT : https://jadt2020.sciencesconf.org/
+done
+
+### 25 Nov
+(special focus on Neural Networks)  LREC2020 (Marseille, May 11-16, 2020) https://lrec2020.lrec-conf.org/
+https://lrec2020.lrec-conf.org/en/reprolang2020/call-for-papers/
+REPROLANG 2020
+Shared Task on the Reproduction of Research Results in Science and Technology of Language  
+Satellite workshop: REPROLANG : paper for NMT:
+Vanmassenhove, Eva, and Andy Way. 2018. “SuperNMT: Neural Machine Translation with Semantic Supersenses and Syntactic Supertags”. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL 2018), pp. 67–73.
+http://aclweb.org/anthology/P18-3010
+Major reproduction comparables: BLEU scores (tables 1 and 2; plots in figures 2, 3 and 4).
+done
+
+### December 9th, 2019 : POSTPONED to ACL2021 ;)
+deadline ACL main conf https://acl2020.org/calls/papers/
+
+### January, 13th
+[Article long JADT]: https://jadt2020.sciencesconf.org/
+
+### 31 janvier 
+deadline for TALN (paper in French)
+[articleTALN](https://jep-taln2020.loria.fr/taln/)
+
+### Feb 6 JADT notification
+Camera-ready due: 10 March
+
+### Feb 13 th LREC2020 Notification
+Camera-ready due: 6 March.
+
+### 6 mars 
+8 page paper + 2 page project 
+Lisbonne: http://www.eamt.org/news/news_cfp_eamt_2020.php
+https://eamt2020.inesc-id.pt/
+
+### April
+possible deadlines for ACL sattelites : 
+[BLACKBOX] (https://blackboxnlp.github.io/) : workshop specialised in understanding neural networks for linguists
+https://www.aclweb.org/anthology/volumes/W19-48/
+Workshop Paper Due Date 	April 6, 2020
+
+### JUNE 
+Plausible deadline for The 5th Workshop on Multi-word Units in Machine Translation and Translation Technology (MUMTTT 2020 in Louvain) http://www.lexytrad.es/europhras2019/mumttt-2019-2/
+Conf in Sept-Oct.
+RQ: can Multi-word-unit annotation inprove the training phase for neural networks?
+8-12 june 2020: [TALN](https://jep-taln2020.loria.fr/dates/) 
+16-19 juin 2020 TOULOUSE (France) [JADT2020](https://jadt2020.sciencesconf.org/)
+
+
+### JULY
+ACL2020 : July 5th through July 10th, 2020. Seattle https://acl2020.org/
+WMT workshop?
+July 15 deadline [Blackbox workshop](https://blackboxnlp.github.io/) @EMLP2020
+[DEELIO](https://sites.google.com/view/deelio-ws/)
+
+
+### AUGUST
+31/08 -> 03/09 http://www.europhras.org/fr/component/jem/event/64-europhras-2020
+(MUMTTT 2020 in Louvain)  
+
+
+### APPELS A PROJETS
+King's College, London
+DIM informatique (juin 2020):
+émergences 2020 (avril)
+https://u-paris.fr/appel-a-manifestation-dinteret-pre-maturation/
+http://www.eamt.org/news/news_call_for_proposals2020.php
+institutdeshumanites.fr/linstitut/appels-a-projet/formulaire_appelaprojets2019/
+
+
+
+
+
+## . Améliorer le script pour lancer à distance des entraînements d'OpenNMT sur du GPU
+Nabil continue d'explorer les caractéristiques des différents paramètres d'OpenNMT, eg utiliser tensorboard pour le suivi de l'apprentissage. Les paramètres peuvent faire l'objet de commentaire sur la page [NN](https://github.com/nballier/NMT/blob/master/2.%20NN.md). Différentes solutions de traitement de données sont à tester, dont https://edu.google.com/ .
+Jean-Baptiste installe déploie la version TensorFlow sur du Debian.
 
 ## 0bis identifier les articles rédigés à propos des deux grandes versions repérées pour OpenNMT.
 TensorFlow versus Pytorch
@@ -30,8 +105,9 @@ The default translation mode allows the model to produce the <unk> symbol when i
 4. calculer le delta entre deux époques pour le score BLEU : différence 
 
 
-## 2. Article sur la réplicabilité (Nematus, données annotées) 
-Finir l'annotation, préparer la reprise éventuelle (6 février) ou resoumission.
+## 2. Article sur la réplicabilité (Nematus, données annotées)  LREC2020 REPROLANG2020 
+Finir l'annotation, préparer la reprise éventuelle (6 février) ou une resoumission de l'artcile.
+
 
 ### Données Europarl : chercher versions plus propres
 https://pub.cl.uzh.ch/wiki/public/costep/start#known_errors
@@ -49,9 +125,10 @@ http://www.statmt.org/wmt14/translation-task.html
 
 TODO -> RESTREINDRE à 1M mots à partir du début pour l'anglais et couper les corpus français et allemand équivalents. 
 -> Récupérer l'équivalent taggué sous CCG: version française500K 
--> 
+ 
 
 ## script de plots (panda,numpy) OK
+https://gitlab.com/nballier/reprolang2020
 
 ### Extractions données tests: OK 
 - pour le corpus de test Europarl: compilation (4957 phrases en anglais ) test5k.en et 5,213 pour test5k.fr : OK
@@ -72,6 +149,7 @@ https://github.com/rsennrich/subword-nmt <br/>
 
 "To reduce the number of out-of-vocabulary (OOV) words, we follow the approach of Sennrich et al. (2016) using a variant of BPE for word segmentation capable of encoding open vocabularies with a compact symbol vocabulary of variable- length subword units. For each word that is split into subword units, we copy the features of the word in question to its subword units. 
 In (3), we give an example with the word ‘stormtroopers’ that is tagged with the supersense tag ‘GROUP’. It is split into 5 subword units so the supersense tag feature is copied to all its five subword units. Furthermore, we add a none tag to all words that did not receive a supersense tag."
+
 
 ####  Job2  : POS
 Sur 2 M de phrases en POS DE,FR, ALL, sans BPE
@@ -102,7 +180,6 @@ The POS tags are generated by the Stanford POS-tagger (Toutanova et al., 2003); 
 annotation 500K sur l'anglais -> faire le corpus de validation / identifier le brut français correspondant, le passer en PBE.
 
 
-
 ####  Job5 Supersenses SST
 cf example (6) in the paper
 Supersenses:
@@ -114,6 +191,7 @@ Discuss the separator (pipe), the order of tags and the feature representation :
 
 ####  Job 7 : contiguity tags versus boundary tags for mwe
 Replace _mwe  _mwe _mwe   by  | [mwe  |mwe  | ]mwe 
+
 
 ####  Job 8: tags with pipes as separators ???
 
@@ -140,7 +218,6 @@ For the MWEs we decided to copy the super- sense tag to all the words of the MWE
 [CLARIN gold corpus of manually annotated verbal MWE](https://lindat.mff.cuni.cz/repository/xmlui/handle/11372/LRT-2842#)
 Estimate precision and recall of MWE annotation against gold corpora.
 
-
 ####  Report precision rates of the tools
 Baseline (BPE) vs Combined (SST–CCG) NMT Systems for EN–FR, evaluated on the newstest2013.
 Baseline (BPE) vs Syntactic (CCG) vs Semantic (SST) and Combined (SST–CCG) NMT Systems for EN–FR, evaluated on the newstest2013.
@@ -157,28 +234,26 @@ CCG tags provide global syntactic information on the lexical level
 - CCG pour le français et les autres langues
 - SST et WOLF pour French and German wordnet
 
+
+
 ### Article 3: TALN  (31 janvier)
+Jean-Baptiste a reçu le lien Overleaf
 
 
 ### Article 4: EAMT
+1 article de recherche
+1 projet avec invitation à candidater
 
 
+### ARticle 5 réplication Belinkov et al2017: qu'ont appris les réseaux de neurones?
 
-
-## 3. Implémenter les solutions de visualisation développée dans les travaux de Montavon
-http://www.heatmapping.org/
-http://heatmapping.org/tutorial.
-https://arxiv.org/pdf/1706.07979.pdf
-Montavon [Vidéo](https://www.youtube.com/watch?v=gy_Cb4Do_YE)
-
-## 4. pouvoir répliquer les trois papiers réplicables avec des données français/anglais :
+## 3. pouvoir répliquer les trois papiers réplicables avec des données français/anglais :
 
 ### BeLINKOv ET AL. 2017 NEURAL : knowledge  morphology in MT (Hebrew morphology)
 Belinkov, Y., Durrani, N., Dalvi, F., Sajjad, H., & Glass, J. (2017). What do neural machine translation models learn about morphology?. arXiv preprint arXiv:1704.03471.
 https://arxiv.org/pdf/1704.03471.pdf
 https://github.com/boknilev/nmt-repr-analysis
 The lua code relies on a sed2seq attention model https://github.com/harvardnlp/seq2seq-attn now superseded by OpenNMT.
-
 
 @inproceedings{evaluating-fine-grained-semantic-phenomena-in-neural-machine-translation-encoders-using-entailment,
 
@@ -192,6 +267,7 @@ The lua code relies on a sed2seq attention model https://github.com/harvardnlp/s
 
 }Replicable for French???   
 
+
 ### TAL Linzen (monolingual language model):  using syntactic structures, verb/subject agreements and possibility of  insertions between subjects and verbs)
 
 Tal Linzen, Emmanuel Dupoux & Yoav Goldberg (2016). Assessing the ability of LSTMs to learn syntax-sensitive dependencies. Transactions of the Association for Computational Linguistics 4, 521–535. http://tallinzen.net/media/papers/linzen_dupoux_goldberg_2016_tacl.pdf
@@ -203,6 +279,12 @@ https://github.com/TalLinzen/rnn_agreement
 ### K. Gulordava, P. Bojanowski, E. Grave, T. Linzen, M. Baroni. 2018. Colorless green recurrent networks dream hierarchically. Proceedings of NAACL.
 https://github.com/facebookresearch/colorlessgreenRNNs/tree/master/data
 
+
+## 4. Implémenter les solutions de visualisation développée dans les travaux de Montavon
+http://www.heatmapping.org/
+http://heatmapping.org/tutorial.
+https://arxiv.org/pdf/1706.07979.pdf
+Montavon [Vidéo](https://www.youtube.com/watch?v=gy_Cb4Do_YE)
 
 
 ## 5. Problématiques diverses : Entraînement
@@ -220,83 +302,17 @@ OpenNMT et la réplication d'expérience.
 News2013
 
 
-## 7. DEADLINES FOR CONFERENCE PAPERS
 
-### November 18th
-abstract JADT : https://jadt2020.sciencesconf.org/
-
-### 25 Nov
-(special focus on Neural Networks)  LREC2020 (Marseille, May 11-16, 2020) https://lrec2020.lrec-conf.org/
-https://lrec2020.lrec-conf.org/en/reprolang2020/call-for-papers/
-REPROLANG 2020
-Shared Task on the Reproduction of Research Results in Science and Technology of Language  
-Satellite workshop: REPROLANG : paper for NMT:
-Vanmassenhove, Eva, and Andy Way. 2018. “SuperNMT: Neural Machine Translation with Semantic Supersenses and Syntactic Supertags”. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL 2018), pp. 67–73.
-http://aclweb.org/anthology/P18-3010
-Major reproduction comparables: BLEU scores (tables 1 and 2; plots in figures 2, 3 and 4).
-
-### December 9th, 2019 : POSTPONED to ACL2021 ;)
-deadline ACL main conf https://acl2020.org/calls/papers/
-
-### January, 13th
-[Article long JADT]: https://jadt2020.sciencesconf.org/
-
-### 31 janvier 
-deadline for TALN (paper in French)
-[articleTALN](https://jep-taln2020.loria.fr/taln/)
-
-### JADT notification
-Camera-ready due: 10 March
-
-### Feb 13 th LREC2020 Notification
-Camera-ready due: 6 March.
-
-### 6 mars 
-8 page paper + 2 page project 
-Lisbonne: http://www.eamt.org/news/news_cfp_eamt_2020.php
-https://eamt2020.inesc-id.pt/
-
-### April
-possible deadlines for ACL sattelites : 
-[BLACKBOX] (https://blackboxnlp.github.io/) : workshop specialised in understanding neural networks for linguists
-https://www.aclweb.org/anthology/volumes/W19-48/
-Workshop Paper Due Date 	April 6, 2020
-
-### JUNE 
-Plausible deadline for The 5th Workshop on Multi-word Units in Machine Translation and Translation Technology (MUMTTT 2020 in Louvain) http://www.lexytrad.es/europhras2019/mumttt-2019-2/
-Conf in Sept-Oct.
-RQ: can Multi-word-unit annotation inprove the training phase for neural networks?
-
-8-12 june 2020: [TALN](https://jep-taln2020.loria.fr/dates/) 
-16-19 juin 2020 TOULOUSE (France) [JADT2020](https://jadt2020.sciencesconf.org/)
-
-### JULY
-ACL2020 : July 5th through July 10th, 2020. Seattle https://acl2020.org/
-WMT workshop?
-July 15 deadline [Blackbox workshop](https://blackboxnlp.github.io/) @EMLP2020
-[DEELIO](https://sites.google.com/view/deelio-ws/)
-
-### AUGUST
-31/08 -> 03/09 http://www.europhras.org/fr/component/jem/event/64-europhras-2020
-(MUMTTT 2020 in Louvain)  
-
-
-### APPELS A PROJETS
-https://u-paris.fr/appel-a-manifestation-dinteret-pre-maturation/
-
-http://www.eamt.org/news/news_call_for_proposals2020.php
-
-
-## BIBLIOGRAPHIE
+## 7 BIBLIOGRAPHIE
 Taylor Arnold et al. 2019 *A Computational Approach to Statistical Learning* CRC Press. 
 (see  chapter 8 on neural networks, code in R) 
-
 
 Servan, Chr., Crego, J and Senellart, J. (2017) Adaptation incrémentale de modèles de traduction neuronaux. In I. Eshkol and J.-Y. Antoine (Eds.) 24e Conférence sur le Traitement Automatique des Langues Naturelles TALN2017.  [218-226](taln2017.cnrs.fr/wp-content/uploads/2017/06/actes_TALN_2017-vol2Final.pdf#page=230)
 
 
-## Notes
+## 8. Notes
 Autres systèmes : [Nematus](https://github.com/EdinburghNLP/nematus)
+
 
 
 
