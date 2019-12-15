@@ -51,13 +51,11 @@ RQ: can Multi-word-unit annotation inprove the training phase for neural network
 8-12 june 2020: [TALN](https://jep-taln2020.loria.fr/dates/) 
 16-19 juin 2020 TOULOUSE (France) [JADT2020](https://jadt2020.sciencesconf.org/)
 
-
 ### JULY
 ACL2020 : July 5th through July 10th, 2020. Seattle https://acl2020.org/
 WMT workshop?
 July 15 deadline [Blackbox workshop](https://blackboxnlp.github.io/) @EMLP2020
 [DEELIO](https://sites.google.com/view/deelio-ws/)
-
 
 ### AUGUST
 31/08 -> 03/09 http://www.europhras.org/fr/component/jem/event/64-europhras-2020
@@ -75,16 +73,15 @@ institutdeshumanites.fr/linstitut/appels-a-projet/formulaire_appelaprojets2019/
 
 
 
-
 ## . Améliorer le script pour lancer à distance des entraînements d'OpenNMT sur du GPU
 Nabil continue d'explorer les caractéristiques des différents paramètres d'OpenNMT, eg utiliser tensorboard pour le suivi de l'apprentissage. Les paramètres peuvent faire l'objet de commentaire sur la page [NN](https://github.com/nballier/NMT/blob/master/2.%20NN.md). Différentes solutions de traitement de données sont à tester, dont https://edu.google.com/ .
 Jean-Baptiste installe déploie la version TensorFlow sur du Debian.
+
 
 ## 0bis identifier les articles rédigés à propos des deux grandes versions repérées pour OpenNMT.
 TensorFlow versus Pytorch
 collecter les articles correspondants 
 Monter les Dockers équivalents 
-
 
 ## 1. ARTICLE JADT (deadline 13 janvier pour l'article)
 1. Améliorer le jeu de données initial (13 époques, score BLEU).
@@ -97,17 +94,14 @@ Il serait intéressant de jouer avec ces deux options :
 The default translation mode allows the model to produce the <unk> symbol when it is not sure of the specific target word. Often times <unk> symbols will correspond to proper names that can be directly transposed between languages. The - replace_unk option will substitute <unk> with source words that have the highest attention weight. The
 - replace_unk_tagged option will do the same, but wrap the token in a ｟unk:xxxxx｠ tag.
 
-
 **JB** 
 1. tester avec les 100 dernières phrases du corpus d'entraînement : DONE
 2. tester avec the - replace_unk option : option disparue?
 3. lancer avec plus encore plus d'époques : 30 
 4. calculer le delta entre deux époques pour le score BLEU : différence 
 
-
 ## 2. Article sur la réplicabilité (Nematus, données annotées)  LREC2020 REPROLANG2020 
 Finir l'annotation, préparer la reprise éventuelle (6 février) ou une resoumission de l'artcile.
-
 
 ### Données Europarl : chercher versions plus propres
 https://pub.cl.uzh.ch/wiki/public/costep/start#known_errors
@@ -126,7 +120,6 @@ http://www.statmt.org/wmt14/translation-task.html
 TODO -> RESTREINDRE à 1M mots à partir du début pour l'anglais et couper les corpus français et allemand équivalents. 
 -> Récupérer l'équivalent taggué sous CCG: version française500K 
  
-
 ## script de plots (panda,numpy) OK
 https://gitlab.com/nballier/reprolang2020
 
@@ -172,6 +165,7 @@ French : https://nlp.stanford.edu/software/stanford-postagger-full-2014-06-16.zi
 
 -> à refaire avec à 1M de phrases.
 
+
 ####  Job 4 CCG tags with EasySRL 
 EasySRL tool (Lewis et al., 2015)
 https://github.com/uwnlp/EasySRL
@@ -188,6 +182,7 @@ https://github.com/nschneid/pysupersensetagger
 
 ####  Job6 Combined (SST–CCG)
 Discuss the separator (pipe), the order of tags and the feature representation : flat or I,O,B (TALN paper???)
+
 
 ####  Job 7 : contiguity tags versus boundary tags for mwe
 Replace _mwe  _mwe _mwe   by  | [mwe  |mwe  | ]mwe 
@@ -228,13 +223,13 @@ Baseline (BPE) vs Syntactic (CCG) vs Semantic (SST) and Combined (SST–CCG) NMT
 (4) CCG tags with EasySRL tool (Lewis et al., 2015) 
 CCG tags provide global syntactic information on the lexical level 
 
+
 ### Explorations bilingues des annotations 
 - upos, pos
-- mwe et PARSEME (pour les )
+- mwe et PARSEME (pour les langues où c'est disponible)
+Schmitt, M., Moreau, E., Constant, M., & Savary, A. (2019, July). Démonstrateur en-ligne du projet ANR PARSEME-FR sur les expressions polylexicales.
 - CCG pour le français et les autres langues
 - SST et WOLF pour French and German wordnet
-
-
 
 ### Article 3: TALN  (31 janvier)
 Jean-Baptiste a reçu le lien Overleaf
@@ -253,7 +248,7 @@ Jean-Baptiste a reçu le lien Overleaf
 Belinkov, Y., Durrani, N., Dalvi, F., Sajjad, H., & Glass, J. (2017). What do neural machine translation models learn about morphology?. arXiv preprint arXiv:1704.03471.
 https://arxiv.org/pdf/1704.03471.pdf
 https://github.com/boknilev/nmt-repr-analysis
-The lua code relies on a sed2seq attention model https://github.com/harvardnlp/seq2seq-attn now superseded by OpenNMT.
+The lua code relies on a seq2seq attention model https://github.com/harvardnlp/seq2seq-attn now superseded by OpenNMT.
 
 @inproceedings{evaluating-fine-grained-semantic-phenomena-in-neural-machine-translation-encoders-using-entailment,
 
@@ -271,12 +266,11 @@ The lua code relies on a sed2seq attention model https://github.com/harvardnlp/s
 ### TAL Linzen (monolingual language model):  using syntactic structures, verb/subject agreements and possibility of  insertions between subjects and verbs)
 
 Tal Linzen, Emmanuel Dupoux & Yoav Goldberg (2016). Assessing the ability of LSTMs to learn syntax-sensitive dependencies. Transactions of the Association for Computational Linguistics 4, 521–535. http://tallinzen.net/media/papers/linzen_dupoux_goldberg_2016_tacl.pdf
-
 https://github.com/TalLinzen/rnn_agreement
-
 @article{linzen2016assessing,     Author = {Linzen, Tal and Dupoux, Emmanuel and Goldberg, Yoav},     Journal = {Transactions of the Association for Computational Linguistics},     Title = {Assessing the ability of {LSTMs} to learn syntax-sensitive dependencies},     Volume = {4},     Pages = {521--535},     Year = {2016} }
  
 ### K. Gulordava, P. Bojanowski, E. Grave, T. Linzen, M. Baroni. 2018. Colorless green recurrent networks dream hierarchically. Proceedings of NAACL.
+https://arxiv.org/pdf/1803.11138
 https://github.com/facebookresearch/colorlessgreenRNNs/tree/master/data
 
 
