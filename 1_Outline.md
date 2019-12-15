@@ -309,10 +309,12 @@ Taylor Arnold et al. 2019 *A Computational Approach to Statistical Learning* CRC
 
 Servan, Chr., Crego, J and Senellart, J. (2017) Adaptation incrémentale de modèles de traduction neuronaux. In I. Eshkol and J.-Y. Antoine (Eds.) 24e Conférence sur le Traitement Automatique des Langues Naturelles TALN2017.  [218-226](taln2017.cnrs.fr/wp-content/uploads/2017/06/actes_TALN_2017-vol2Final.pdf#page=230)
 
-
 Ruder, Sebastian. 2016. “An Overview of Gradient Descent Optimization Algorithms.” arXiv Preprint arXiv:1609.04747.
 https://arxiv.org/pdf/1609.04747
 
+
+Thushan Ganegedara Neural Machine Translator with Less than 50 lines of Code + Guide
+http://www.thushv.com/natural_language_processing/neural-machine-translator-with-50-lines-of-code-using-tensorflow-seq2seq/?source=post_page-----1fe4fdfe6292----------------------
 
 ## 8. Notes
 Autres systèmes : [Nematus](https://github.com/EdinburghNLP/nematus)
