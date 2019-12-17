@@ -108,7 +108,8 @@ https://pub.cl.uzh.ch/wiki/public/costep/start#known_errors
 contient nos millions de mots d'Europarl, en version plus propre
 
 Le fichier 2000-07-05.xml comprend "strormtroopers", le XML permet d'extraire les langues fr, en et de (et es, si on veut)
-<text language="en">
+<text language="en"> . Un script tout fait (nécessite  XMLStarlet Command Line XML Toolkit) génère des fichiers tabulaires bilingues. 
+
 
 voir aussi
 https://www.zora.uzh.ch/id/eprint/99005/
@@ -317,6 +318,15 @@ http://www.thushv.com/natural_language_processing/neural-machine-translator-with
 ## 8. Notes
 Autres systèmes : [Nematus](https://github.com/EdinburghNLP/nematus)
 
+
+## ALTERNATES
+Monitoring the input
+CCG bank
+-> test twhat the neural network has learned for CCG annotation???
+Cluster the number of labels fpr each pos-tag to be learnt by the system: learning the input
+
+
+Replace Byte Pair Encoding with morphological boundaries: BPE vs. Chipmunk
 
 
 
