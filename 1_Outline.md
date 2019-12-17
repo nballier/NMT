@@ -106,6 +106,10 @@ Finir l'annotation, préparer la reprise éventuelle (6 février) ou une resoumi
 ### Données Europarl : chercher versions plus propres
 https://pub.cl.uzh.ch/wiki/public/costep/start#known_errors
 contient nos millions de mots d'Europarl, en version plus propre
+
+Le fichier 2000-07-05.xml comprend "strormtroopers", le XML permet d'extraire les langues fr, en et de (et es, si on veut)
+<text language="en">
+
 voir aussi
 https://www.zora.uzh.ch/id/eprint/99005/
 https://www.tandfonline.com/doi/suppl/10.1080/0907676X.2018.1485716?scroll=top
