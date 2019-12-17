@@ -33,7 +33,8 @@ Hjerson is a detective solving mysteries (hidden error classes) – he is a recu
 in several books of Agatha Christie."
 
 
-
+### Attention tools (attention is all you need) 
+http://nlp.seas.harvard.edu/2018/04/03/attention.html
 
 
 ###  MOSES: SMT
