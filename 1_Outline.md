@@ -6,6 +6,7 @@
 abstract JADT : https://jadt2020.sciencesconf.org/
 done
 
+
 ### 25 Nov
 (special focus on Neural Networks)  LREC2020 (Marseille, May 11-16, 2020) https://lrec2020.lrec-conf.org/
 https://lrec2020.lrec-conf.org/en/reprolang2020/call-for-papers/
@@ -23,17 +24,18 @@ deadline ACL main conf https://acl2020.org/calls/papers/
 ### January, 13th
 [Article long JADT]: https://jadt2020.sciencesconf.org/
 
+
 ### 31 janvier 
 deadline for TALN (paper in French)
 [articleTALN](https://jep-taln2020.loria.fr/taln/)
 
-### Feb 6 JADT notification
+### Feb 6th JADT notification
 Camera-ready due: 10 March
 
-### Feb 13 th LREC2020 Notification
+### Feb 13th LREC2020 Notification
 Camera-ready due: 6 March.
 
-### 6 mars 
+### March 6
 8 page paper + 2 page project 
 Lisbonne: http://www.eamt.org/news/news_cfp_eamt_2020.php
 https://eamt2020.inesc-id.pt/
@@ -61,7 +63,6 @@ July 15 deadline [Blackbox workshop](https://blackboxnlp.github.io/) @EMLP2020
 31/08 -> 03/09 http://www.europhras.org/fr/component/jem/event/64-europhras-2020
 (MUMTTT 2020 in Louvain)  
 
-
 ### APPELS A PROJETS
 King's College, London
 DIM informatique (juin 2020):
@@ -69,7 +70,6 @@ DIM informatique (juin 2020):
 https://u-paris.fr/appel-a-manifestation-dinteret-pre-maturation/
 http://www.eamt.org/news/news_call_for_proposals2020.php
 institutdeshumanites.fr/linstitut/appels-a-projet/formulaire_appelaprojets2019/
-
 
 
 
@@ -104,10 +104,7 @@ The default translation mode allows the model to produce the <unk> symbol when i
 Finir l'annotation, préparer la reprise éventuelle (6 février) ou une resoumission de l'artcile.
 
 ### Données Europarl : chercher versions plus propres
-https://pub.cl.uzh.ch/wiki/public/costep/start#known_errors
-contient nos millions de mots d'Europarl, en version plus propre
-
-Le fichier 2000-07-05.xml comprend "strormtroopers", le XML permet d'extraire les langues fr, en et de (et es, si on veut)
+@ comprend "strormtroopers", le XML permet d'extraire les langues fr, en et de (et es, si on veut)
 <text language="en"> . Un script tout fait (nécessite  XMLStarlet Command Line XML Toolkit) génère des fichiers tabulaires bilingues. 
 
 
