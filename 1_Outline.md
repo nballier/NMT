@@ -107,6 +107,9 @@ Finir l'annotation, préparer la reprise éventuelle (6 février) ou une resoumi
 @ comprend "strormtroopers", le XML permet d'extraire les langues fr, en et de (et es, si on veut)
 <text language="en"> . Un script tout fait (nécessite  XMLStarlet Command Line XML Toolkit) génère des fichiers tabulaires bilingues. 
 
+https://pub.cl.uzh.ch/wiki/public/costep/start#known_errors
+The Corrected & Structured Europarl Corpus (CoStEP) http://pub.cl.uzh.ch/purl/costep
+Graën, J., Batinic, D., and Volk, M. (2014). Cleaning the Europarl corpus for linguistic applications. In Konvens 2014. Stiftung Universität Hildesheim.
 
 voir aussi
 https://www.zora.uzh.ch/id/eprint/99005/
