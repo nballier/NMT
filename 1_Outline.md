@@ -21,14 +21,13 @@ done
 ### December 9th, 2019 : POSTPONED to ACL2021 ;)
 deadline ACL main conf https://acl2020.org/calls/papers/
 
-
 ### January, 13th
 [Article long JADT]: https://jadt2020.sciencesconf.org/
-
 
 ### 31 janvier 
 deadline for TALN (paper in French)
 [articleTALN](https://jep-taln2020.loria.fr/taln/)
+
 
 ### Feb 6th JADT notification
 Camera-ready due: 10 March
@@ -64,14 +63,18 @@ July 15 deadline [Blackbox workshop](https://blackboxnlp.github.io/) @EMLP2020
 31/08 -> 03/09 http://www.europhras.org/fr/component/jem/event/64-europhras-2020
 (MUMTTT 2020 in Louvain)  
 
+
 ### APPELS A PROJETS
 King's College, London
-DIM informatique (juin 2020):
+
 émergences 2020 (avril)
 https://u-paris.fr/appel-a-manifestation-dinteret-pre-maturation/
 http://www.eamt.org/news/news_call_for_proposals2020.php
 institutdeshumanites.fr/linstitut/appels-a-projet/formulaire_appelaprojets2019/
 
+
+DIM informatique (appel lancé en mai pour soumission en juin):
+[achives 2019] (https://dim-rfsi.fr/content/4-projets/2-projets-emergents-2019/rfsi-appel-a-projets-emergents-2019.pdf)
 
 
 ## . Améliorer le script pour lancer à distance des entraînements d'OpenNMT sur du GPU
