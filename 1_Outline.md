@@ -4,8 +4,7 @@
 
 ### November 18th
 abstract JADT : https://jadt2020.sciencesconf.org/
-done
-
+done, final paper submitted.
 
 ### 25 Nov
 (special focus on Neural Networks)  LREC2020 (Marseille, May 11-16, 2020) https://lrec2020.lrec-conf.org/
@@ -16,17 +15,22 @@ Satellite workshop: REPROLANG : paper for NMT:
 Vanmassenhove, Eva, and Andy Way. 2018. “SuperNMT: Neural Machine Translation with Semantic Supersenses and Syntactic Supertags”. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL 2018), pp. 67–73.
 http://aclweb.org/anthology/P18-3010
 Major reproduction comparables: BLEU scores (tables 1 and 2; plots in figures 2, 3 and 4).
-done
+
+REPRISE LREC REPROLANG
+- écrire aux collègues
+- ré-annoter et produire les figures 2 à 4
 
 ### December 9th, 2019 : POSTPONED to ACL2021 ;)
 deadline ACL main conf https://acl2020.org/calls/papers/
 
-### January, 13th
+### January, 27th
 [Article long JADT]: https://jadt2020.sciencesconf.org/
+submitted
 
 ### 31 janvier 
 deadline for TALN (paper in French)
 [articleTALN](https://jep-taln2020.loria.fr/taln/)
+POSTPONED TO 2021
 
 
 ### Feb 6th JADT notification
@@ -35,16 +39,23 @@ Camera-ready due: 10 March
 ### Feb 13th LREC2020 Notification
 Camera-ready due: 6 March.
 
+
 ### March 6
 8 page paper + 2 page project 
 Lisbonne: http://www.eamt.org/news/news_cfp_eamt_2020.php
 https://eamt2020.inesc-id.pt/
+1. learnability of NMT : a roadmap 
+2. the learnability of Pos tags versus upos tags
+
 
 ### April
 possible deadlines for ACL sattelites : 
 [BLACKBOX] (https://blackboxnlp.github.io/) : workshop specialised in understanding neural networks for linguists
 https://www.aclweb.org/anthology/volumes/W19-48/
 Workshop Paper Due Date 	April 6, 2020
+
+NB :  possible submisison to the 4th Workshop on Neural Generation and Translation (WNGT 2020) @ ACL: https://sites.google.com/view/wngt20/
+
 
 ### JUNE 
 Plausible deadline for The 5th Workshop on Multi-word Units in Machine Translation and Translation Technology (MUMTTT 2020 in Louvain) http://www.lexytrad.es/europhras2019/mumttt-2019-2/
