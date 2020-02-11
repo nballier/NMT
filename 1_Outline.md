@@ -17,8 +17,10 @@ http://aclweb.org/anthology/P18-3010
 Major reproduction comparables: BLEU scores (tables 1 and 2; plots in figures 2, 3 and 4).
 
 REPRISE LREC REPROLANG
-- écrire aux collègues
+- écrire aux collègues: OK
 - ré-annoter et produire les figures 2 à 4
+- reprendre les remarques
+
 
 ### December 9th, 2019 : POSTPONED to ACL2021 ;)
 deadline ACL main conf https://acl2020.org/calls/papers/
@@ -33,40 +35,36 @@ deadline for TALN (paper in French)
 POSTPONED TO 2021
 
 
-### Feb 6th JADT notification
-Camera-ready due: 10 March
-
 ### Feb 13th LREC2020 Notification
+ACCEPTED!!
 Camera-ready due: 6 March.
 
+### Feb 24th JADT notification
+Camera-ready due: 10 March
 
 ### March 6
 8 page paper + 2 page project 
 Lisbonne: http://www.eamt.org/news/news_cfp_eamt_2020.php
 https://eamt2020.inesc-id.pt/
 1. learnability of NMT : a roadmap 
-2. the learnability of Pos tags versus upos tags
+2. the learnability of Pos tags versus upos tags (full paper)
 
 
 ### April
 (inscriptions JADT)
-
 possible deadlines for ACL sattelites : 
 [BLACKBOX] (https://blackboxnlp.github.io/) : workshop specialised in understanding neural networks for linguists
 https://www.aclweb.org/anthology/volumes/W19-48/
 Workshop Paper Due Date 	April 6, 2020
+POSTPONED to 2021
 
-NB :  possible submisison to the 4th Workshop on Neural Generation and Translation (WNGT 2020) @ ACL: https://sites.google.com/view/wngt20/
-
+NB+TA+JBY:  possible submisison to the 4th Workshop on Neural Generation and Translation (WNGT 2020) @ ACL: https://sites.google.com/view/wngt20/
 
 
 ### May
-
-3-6  EAMT conference Lisbonne : https://eamt2020.inesc-id.pt/
-
+3-6 May   EAMT conference Lisbonne : https://eamt2020.inesc-id.pt/
 
 11-16 May LREC Marseilles conference: https://lrec2020.lrec-conf.org
-
 
 ### JUNE 
 Plausible deadline for The 5th Workshop on Multi-word Units in Machine Translation and Translation Technology (MUMTTT 2020 in Louvain) http://www.lexytrad.es/europhras2019/mumttt-2019-2/
@@ -77,7 +75,7 @@ RQ: can Multi-word-unit annotation inprove the training phase for neural network
 
 ### JULY
 ACL2020 : July 5th through July 10th, 2020. Seattle https://acl2020.org/
-WMT workshop?
+WNGT workshop?
 July 15 deadline [Blackbox workshop](https://blackboxnlp.github.io/) @EMLP2020
 [DEELIO](https://sites.google.com/view/deelio-ws/)
 
@@ -85,8 +83,9 @@ July 15 deadline [Blackbox workshop](https://blackboxnlp.github.io/) @EMLP2020
 31/08 -> 03/09 http://www.europhras.org/fr/component/jem/event/64-europhras-2020
 (MUMTTT 2020 in Louvain)  
 
+
 ### APPELS A PROJETS
-King's College, London
+King's College, London & UoP 2020
 
 émergences 2020 (avril)
 https://u-paris.fr/appel-a-manifestation-dinteret-pre-maturation/
