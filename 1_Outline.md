@@ -16,11 +16,10 @@ Vanmassenhove, Eva, and Andy Way. 2018. “SuperNMT: Neural Machine Translation 
 http://aclweb.org/anthology/P18-3010
 Major reproduction comparables: BLEU scores (tables 1 and 2; plots in figures 2, 3 and 4).
 
-REPRISE LREC REPROLANG
+**REPRISE LREC REPROLANG**
 - écrire aux collègues: OK
 - ré-annoter et produire les figures 2 à 4
 - reprendre les remarques
-
 
 ### December 9th, 2019 : POSTPONED to ACL2021 ;)
 deadline ACL main conf https://acl2020.org/calls/papers/
@@ -34,7 +33,6 @@ deadline for TALN (paper in French)
 [articleTALN](https://jep-taln2020.loria.fr/taln/)
 POSTPONED TO 2021
 
-
 ### Feb 13th LREC2020 Notification
 ACCEPTED!!
 Camera-ready due: 6 March.
@@ -42,11 +40,12 @@ Camera-ready due: 6 March.
 ### Feb 24th JADT notification
 Camera-ready due: 10 March
 
+
 ### March 6
 8 page paper + 2 page project 
 Lisbonne: http://www.eamt.org/news/news_cfp_eamt_2020.php
 https://eamt2020.inesc-id.pt/
-1. learnability of NMT : a roadmap 
+1. learnability of NMT : a linguistic roadmap at Université de Paris 
 2. the learnability of Pos tags versus upos tags (full paper)
 
 
@@ -58,7 +57,7 @@ https://www.aclweb.org/anthology/volumes/W19-48/
 Workshop Paper Due Date 	April 6, 2020
 POSTPONED to 2021
 
-NB+TA+JBY:  possible submisison to the 4th Workshop on Neural Generation and Translation (WNGT 2020) @ ACL: https://sites.google.com/view/wngt20/
+NB+TA+MZ+JBY:  possible submisison to the 4th Workshop on Neural Generation and Translation (WNGT 2020) @ ACL: https://sites.google.com/view/wngt20/
 
 
 ### May
@@ -68,6 +67,7 @@ NB+TA+JBY:  possible submisison to the 4th Workshop on Neural Generation and Tra
 
 ### JUNE 
 Plausible deadline for The 5th Workshop on Multi-word Units in Machine Translation and Translation Technology (MUMTTT 2020 in Louvain) http://www.lexytrad.es/europhras2019/mumttt-2019-2/
+workshop cancelled??
 Conf in Sept-Oct.
 RQ: can Multi-word-unit annotation inprove the training phase for neural networks?
 8-12 june 2020: [TALN](https://jep-taln2020.loria.fr/dates/) 
@@ -75,7 +75,7 @@ RQ: can Multi-word-unit annotation inprove the training phase for neural network
 
 ### JULY
 ACL2020 : July 5th through July 10th, 2020. Seattle https://acl2020.org/
-WNGT workshop?
+WNGT2020 workshop?
 July 15 deadline [Blackbox workshop](https://blackboxnlp.github.io/) @EMLP2020
 [DEELIO](https://sites.google.com/view/deelio-ws/)
 
@@ -92,9 +92,9 @@ https://u-paris.fr/appel-a-manifestation-dinteret-pre-maturation/
 http://www.eamt.org/news/news_call_for_proposals2020.php
 institutdeshumanites.fr/linstitut/appels-a-projet/formulaire_appelaprojets2019/
 
-
 DIM informatique (appel lancé en mai pour soumission en juin):
 [achives 2019] (https://dim-rfsi.fr/content/4-projets/2-projets-emergents-2019/rfsi-appel-a-projets-emergents-2019.pdf)
+2020:  
 
 
 ## . Améliorer le script pour lancer à distance des entraînements d'OpenNMT sur du GPU
@@ -106,6 +106,8 @@ Jean-Baptiste installe déploie la version TensorFlow sur du Debian.
 TensorFlow versus Pytorch
 collecter les articles correspondants 
 Monter les Dockers équivalents 
+READING LIST : https://github.com/yokusama/NMT_Papers
+
 
 ## 1. ARTICLE JADT (deadline 13 janvier pour l'article)
 1. Améliorer le jeu de données initial (13 époques, score BLEU).
@@ -124,8 +126,9 @@ The default translation mode allows the model to produce the <unk> symbol when i
 3. lancer avec plus encore plus d'époques : 30 
 4. calculer le delta entre deux époques pour le score BLEU : différence 
 
+
 ## 2. Article sur la réplicabilité (Nematus, données annotées)  LREC2020 REPROLANG2020 
-Finir l'annotation, préparer la reprise éventuelle (6 février) ou une resoumission de l'artcile.
+Finir l'annotation, préparer la reprise éventuelle (6 février).
 
 ### Données Europarl : chercher versions plus propres
 @ comprend "strormtroopers", le XML permet d'extraire les langues fr, en et de (et es, si on veut)
@@ -171,7 +174,6 @@ https://github.com/rsennrich/subword-nmt <br/>
 
 "To reduce the number of out-of-vocabulary (OOV) words, we follow the approach of Sennrich et al. (2016) using a variant of BPE for word segmentation capable of encoding open vocabularies with a compact symbol vocabulary of variable- length subword units. For each word that is split into subword units, we copy the features of the word in question to its subword units. 
 In (3), we give an example with the word ‘stormtroopers’ that is tagged with the supersense tag ‘GROUP’. It is split into 5 subword units so the supersense tag feature is copied to all its five subword units. Furthermore, we add a none tag to all words that did not receive a supersense tag."
-
 
 ####  Job2  : POS
 Sur 2 M de phrases en POS DE,FR, ALL, sans BPE
@@ -327,6 +329,9 @@ News2013
 
 
 ## 7 BIBLIOGRAPHIE
+[READING LIST](https://github.com/yokusama/NMT_Papers)
+
+
 Taylor Arnold et al. 2019 *A Computational Approach to Statistical Learning* CRC Press. 
 (see  chapter 8 on neural networks, code in R) 
 
@@ -339,6 +344,7 @@ https://arxiv.org/pdf/1609.04747
 Thushan Ganegedara Neural Machine Translator with Less than 50 lines of Code + Guide
 http://www.thushv.com/natural_language_processing/neural-machine-translator-with-50-lines-of-code-using-tensorflow-seq2seq/?source=post_page-----1fe4fdfe6292----------------------
 
+
 ## 8. Notes
 Autres systèmes : [Nematus](https://github.com/EdinburghNLP/nematus)
 
@@ -349,8 +355,5 @@ CCG bank
 -> test twhat the neural network has learned for CCG annotation???
 Cluster the number of labels fpr each pos-tag to be learnt by the system: learning the input
 
-
 Replace Byte Pair Encoding with morphological boundaries: BPE vs. Chipmunk
-
-
 
