@@ -1,6 +1,16 @@
 
 ## Some Visualisation tools
 
+
+### Seq2Seq-Viq (Zemant et al. 2017)
+On-line demo for English-German http://seq2seq-vis.io/
+user's guide and code : https://github.com/HendrikStrobelt/Seq2Seq-Vis
+paper: https://arxiv.org/pdf/1804.09299.pdf
+
+
+Sutskever, I., Vinyals, O., & Le, Q. V. (2014). Sequence to sequence learning with neural networks. In Advances in neural information processing systems (pp. 3104-3112).
+
+
 ### Addicter (Zemant et al. 2011)
 https://wiki.ufal.ms.mff.cuni.cz/user:zeman:addicter
 alitextview.pl
