@@ -22,23 +22,22 @@ else:
     flair_tag_regex = '(.+?)'
 flair_regex = re.compile('(\S+?) <'+flair_tag_regex+'>')
 onmt_pos_regex = re.compile('(\S+?)\uffe8(\S+)')
-punc_pos_regex = re.compile('([,;\.\?])\uffe8(\S+)')
+punc_pos_regex = re.compile('(\S+?)([,;\.\?])\uffe8(\S+)')
 
 for line in src:
-    line = line.rstrip('\n')
+    line = line.rstrip(' \n')
     if args.verbose:
         print(f'INPUT: {line}')
     line = flair_regex.sub('\\1\uffe8\\2',line)
     words = line.split(' ')
     out_words = []
     for word in words:
-#        print(word)
         if not onmt_pos_regex.match(word):
             out_words.append(f'{word}\uffe8{args.token}')
         else:
             out_words.append(word)
     line = ' '.join(out_words)
-    line = punc_pos_regex.sub(f'\uffe8\\2 \\1\uffe8{args.punctuation}',line)
+    line = punc_pos_regex.sub(f'\\1\uffe8\\3 \\2\uffe8{args.punctuation}',line)
     if args.verbose:
         print(f'OUTPUT: {line}')
     out.write(line+'\n')
