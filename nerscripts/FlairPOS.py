@@ -9,13 +9,18 @@ parser.add_argument('out', type=argparse.FileType('w',encoding='UTF-8'), help='O
 parser.add_argument('-v','--verbose', action='store_true', default=False, help='verbose mode')
 parser.add_argument('-pun','--punctuation', default='PUN', help='punctuation tag, default PUN')
 parser.add_argument('-tok','--token', default='TOK', help='punctuation tag, default TOK')
+parser.add_argument('-convert','--convert-tag-to-generic', action='store_true', default=False, help='convert Flair tagging to generic (ie X-YYYY to YYYY)', dest='convert')
 #parser.add_argument('-pos','--src-pos', type=argparse.FileType('r',encoding='UTF-8'), help='POS tagged file')
 
 args = parser.parse_args()
 src = args.src
 out = args.out
 
-flair_regex = re.compile('(\S+?) <(.+?)>')
+if args.convert:
+    flair_tag_regex = '.-(.+?)'
+else:
+    flair_tag_regex = '(.+?)'
+flair_regex = re.compile('(\S+?) <'+flair_tag_regex+'>')
 onmt_pos_regex = re.compile('(\S+?)\uffe8(\S+)')
 punc_pos_regex = re.compile('([,;\.\?])\uffe8(\S+)')
 
