@@ -9,7 +9,9 @@ REPROLANG2020
 - Main info about the REPROLANG 2020 paper
 
 MTS2023 
-- datasets for the 
+- datasets for the MT Summit 2023 submission for the user's track
 
+Nicolas Ballier, Behnoosh Namdarzadeh, Maria Zimina and Jean-Baptiste Yunès (accepted) Translating Dislocations or Parentheticals : Investigating the Role of Prosodic Boundaries for Spoken Language Translation of French into English 
+<https://mtsummit2023.scimeeting.cn/en/web/index/>
 
 
