@@ -1,0 +1,408 @@
+1
+00:00:00,000 --> 00:00:19,840
+Le chat, il dort. Le chat, il dort. Il dort, le chat. Il dort, le chat. Il avait beaucoup
+
+2
+00:00:19,840 --> 00:00:26,800
+changé, Camus. Il avait beaucoup changé, Camus. Ces linguistes, ils sont tous fadas.
+
+3
+00:00:27,800 --> 00:00:33,840
+Ces linguistes sont tous fadas. Ils sont tous fadas, ces linguistes.
+
+4
+00:00:33,840 --> 00:00:41,900
+Bien sûr, ça vous a fait plaisir de le boire, ce café aux lesquels vous avez fait chauffer.
+
+5
+00:00:41,900 --> 00:00:46,700
+Bien sûr, ça vous a fait plaisir de le boire, ce café aux lesquels vous avez fait chauffer.
+
+6
+00:01:11,900 --> 00:01:17,900
+J'y crois. La France, j'y crois très fort, va réussir.
+
+7
+00:01:17,900 --> 00:01:21,400
+La traduction neuronale est impressionnante.
+
+8
+00:01:21,400 --> 00:01:26,600
+La traduction neuronale, c'est vrai, est impressionnante.
+
+9
+00:01:26,600 --> 00:01:30,100
+À Amsterdam, j'y suis allé souvent.
+
+10
+00:01:35,100 --> 00:01:38,100
+À Amsterdam, j'y suis allé souvent.
+
+11
+00:01:38,100 --> 00:01:41,100
+J'y suis allé souvent à Amsterdam.
+
+12
+00:01:42,100 --> 00:01:44,100
+J'y suis allé souvent à Amsterdam.
+
+13
+00:01:44,100 --> 00:01:47,100
+À moi aussi, elle me parle.
+
+14
+00:01:47,100 --> 00:01:49,100
+À moi aussi, elle me parle.
+
+15
+00:01:49,100 --> 00:01:51,100
+Dancer, elle le fera toute sa vie.
+
+16
+00:01:51,100 --> 00:01:53,100
+Elle le fera danser toute sa vie.
+
+17
+00:01:53,100 --> 00:01:55,100
+Elle le fera toute sa vie danser.
+
+18
+00:01:55,100 --> 00:01:58,100
+Elle le fera toute sa vie danser.
+
+19
+00:01:58,100 --> 00:02:02,100
+Libre, je ne le suis à peu près jamais.
+
+20
+00:02:02,100 --> 00:02:05,100
+Libre, je ne le suis à peu près jamais.
+
+21
+00:02:05,100 --> 00:02:08,100
+Libre, je ne le suis à peu près jamais.
+
+22
+00:02:08,100 --> 00:02:11,100
+Sublime, il l'était.
+
+23
+00:02:12,100 --> 00:02:14,100
+Sublime, il l'était.
+
+24
+00:02:14,100 --> 00:02:17,100
+Il l'était sublime.
+
+25
+00:02:17,100 --> 00:02:18,100
+Il l'était sublime.
+
+26
+00:02:18,100 --> 00:02:20,100
+Il l'était sublime.
+
+27
+00:02:20,100 --> 00:02:22,900
+Comédien, il le restera toujours.
+
+28
+00:02:22,900 --> 00:02:24,900
+Comédien, il le restera toujours.
+
+29
+00:02:24,900 --> 00:02:27,900
+Il l'était encore comédien.
+
+30
+00:02:27,900 --> 00:02:30,600
+Il l'était encore comédien.
+
+31
+00:02:30,600 --> 00:02:33,900
+Il l'était encore comédien.
+
+32
+00:02:33,900 --> 00:02:36,900
+J'y suis resté longtemps, là-bas.
+
+33
+00:02:36,900 --> 00:02:38,900
+J'y suis resté longtemps là-bas.
+
+34
+00:02:39,900 --> 00:02:42,900
+Là-dedans, savez-vous ce qu'il y fait ?
+
+35
+00:02:42,900 --> 00:02:44,900
+Là-dedans, savez-vous ce qu'il y fait ?
+
+36
+00:02:44,900 --> 00:02:47,900
+Julie, je parle souvent de sa réussite.
+
+37
+00:02:47,900 --> 00:02:51,200
+Julie, je parle souvent de sa réussite.
+
+38
+00:02:51,200 --> 00:02:53,200
+Julie, je parle souvent de sa réussite.
+
+39
+00:02:53,200 --> 00:02:57,200
+James Key, je parle souvent de lui dans mes cours.
+
+40
+00:02:57,200 --> 00:02:59,600
+James Key, je parle souvent de lui dans mes cours.
+
+41
+00:02:59,600 --> 00:03:01,800
+Klaas, ses chaussettes ont disparu.
+
+42
+00:03:01,800 --> 00:03:04,800
+Klaas, ses chaussettes ont disparu.
+
+43
+00:03:05,200 --> 00:03:09,200
+Cette équipe, les amateurs ont souvent souffert à cause d'elle.
+
+44
+00:03:09,200 --> 00:03:12,200
+Cette équipe, les amateurs ont souvent souffert à cause d'elle.
+
+45
+00:03:12,200 --> 00:03:14,800
+Paul, Pierre s'est battu avec cet idiot.
+
+46
+00:03:14,800 --> 00:03:16,800
+Paul, Pierre s'est battu avec cet idiot.
+
+47
+00:03:16,800 --> 00:03:20,300
+Plastic Bertrand, j'ai tous les disques de ce farfelu.
+
+48
+00:03:20,300 --> 00:03:23,400
+Plastic Bertrand, j'ai tous les disques de ce farfelu.
+
+49
+00:03:23,400 --> 00:03:25,800
+Les yeux de statues, on a vu par milliers.
+
+50
+00:03:25,800 --> 00:03:28,800
+Les yeux de statues, on a vu par milliers.
+
+51
+00:03:28,800 --> 00:03:31,800
+On a vu par milliers des yeux de statue
+
+52
+00:03:31,800 --> 00:03:34,300
+On avait par milliers des vues de statue.
+
+53
+00:03:34,300 --> 00:03:36,300
+J'en ai écrit une de lettres.
+
+54
+00:03:36,300 --> 00:03:39,300
+J'en ai écrit une de lettres.
+
+55
+00:03:39,300 --> 00:03:41,800
+Que j'en trouve encore une de montre.
+
+56
+00:03:41,800 --> 00:03:44,800
+Que j'en trouve encore une de montre.
+
+57
+00:03:44,800 --> 00:03:47,300
+La lecture, ça c'est important.
+
+58
+00:03:47,300 --> 00:03:49,300
+La lecture, ça c'est important.
+
+59
+00:03:49,300 --> 00:03:51,800
+La vitesse, c'est dépassé.
+
+60
+00:03:51,800 --> 00:03:54,300
+La vitesse, c'est dépassé.
+
+61
+00:03:54,300 --> 00:03:56,800
+Un enfant, c'est précieux et fragile.
+
+62
+00:03:56,800 --> 00:03:59,800
+Un enfant, c'est précieux et fragile.
+
+63
+00:03:59,800 --> 00:04:01,800
+Ça bouge beaucoup, un enfant.
+
+64
+00:04:01,800 --> 00:04:04,800
+Ça bouge beaucoup, un enfant.
+
+65
+00:04:04,800 --> 00:04:07,300
+Ça travaille fort en étudiant en médecine.
+
+66
+00:04:07,300 --> 00:04:10,300
+Ça travaille fort en étudiant en médecine.
+
+67
+00:04:10,300 --> 00:04:13,300
+Ça prend toute son énergie, ce genre de travail.
+
+68
+00:04:13,300 --> 00:04:16,300
+Ça prend toute son énergie, ce genre de travail.
+
+69
+00:04:16,800 --> 00:04:18,300
+Des livres, Jean je sais bien
+
+70
+00:04:18,300 --> 00:04:21,300
+qu'elle lui en a volés beaucoup.
+
+71
+00:04:21,300 --> 00:04:22,300
+Des livres, Jean je sais bien
+
+72
+00:04:22,300 --> 00:04:24,300
+qu'elle lui en a volés beaucoup.
+
+73
+00:04:24,300 --> 00:04:25,300
+Je lui ai donné le livre à Luc.
+
+74
+00:04:25,300 --> 00:04:27,300
+Je lui ai donné le livre à Luc.
+
+75
+00:04:27,300 --> 00:04:29,300
+Je lui ai donné le livre à Luc.
+
+76
+00:04:29,300 --> 00:04:32,300
+Il savait bien qu'elle l'était lourde
+
+77
+00:04:32,300 --> 00:04:33,800
+d'apporter la valise,
+
+78
+00:04:33,800 --> 00:04:36,300
+il savait bien qu'elle l'était lourde
+
+79
+00:04:36,300 --> 00:04:38,800
+d'apporter la valise de inversions.
+
+80
+00:04:38,800 --> 00:04:41,300
+estaba bien pe tord,
+
+81
+00:04:42,300 --> 00:04:44,300
+Il savait bien qu'elle l'était lourde
+
+82
+00:04:44,300 --> 00:04:46,300
+d'apporter la valise.
+
+83
+00:04:46,300 --> 00:04:50,300
+A Paul, Maril le lui a bien raconté.
+
+84
+00:04:50,300 --> 00:04:54,300
+A Paul, Maril le lui a bien raconté.
+
+85
+00:04:54,300 --> 00:04:59,300
+A Paul, Maril le lui a bien raconté.
+
+86
+00:04:59,300 --> 00:05:04,300
+A Paul, Maril le lui a bien raconté.
+
+87
+00:05:04,300 --> 00:05:07,300
+Je sais où Paul est allé.
+
+88
+00:05:07,300 --> 00:05:10,300
+Je sais où Paul est allé.
+
+89
+00:05:10,300 --> 00:05:12,300
+Je vais lui demander ces pommes-là
+
+90
+00:05:12,300 --> 00:05:14,300
+à qui il avait l'intention de les vendre.
+
+91
+00:05:14,300 --> 00:05:16,300
+Je vais lui demander ces pommes-là
+
+92
+00:05:16,300 --> 00:05:18,300
+à qui il avait l'intention de les vendre.
+
+93
+00:05:18,300 --> 00:05:20,300
+Je lui jet demandé à qui
+
+94
+00:05:20,300 --> 00:05:22,300
+ces pommes-là, ils avaient l'intention
+
+95
+00:05:22,300 --> 00:05:23,300
+de les vendre.
+
+96
+00:05:23,300 --> 00:05:25,300
+Je lui ai demandé à qui
+
+97
+00:05:25,300 --> 00:05:27,300
+ces pommes-là, il avaient l'intention
+
+98
+00:05:27,300 --> 00:05:29,300
+de les vendre.
+
+99
+00:05:29,300 --> 00:05:31,300
+Je mu ai demandé à qui ces pommes-là,
+
+100
+00:05:31,300 --> 00:05:35,300
+il avait l'intention de les vendre.
+
+101
+00:05:35,300 --> 00:05:38,300
+Je lui ai demandé ces pommes-là
+
+102
+00:05:38,300 --> 00:05:40,300
+à qui ces pommes-là, il avait l'intention de les vendre.
+

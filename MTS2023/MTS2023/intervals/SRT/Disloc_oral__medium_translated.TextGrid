@@ -1,0 +1,254 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 340 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "captions" 
+        xmin = 0 
+        xmax = 340 
+        intervals: size = 48
+        intervals [1]:
+            xmin = 0.000000 
+            xmax = 12.000000 
+            text = "The cat is sleeping." 
+
+        intervals [2]:
+            xmin = 12.000000 
+            xmax = 14.000000 
+            text = "The cat is sleeping." 
+
+        intervals [3]:
+            xmin = 14.000000 
+            xmax = 16.000000 
+            text = "The cat is sleeping." 
+
+        intervals [4]:
+            xmin = 16.000000 
+            xmax = 18.000000 
+            text = "The cat is sleeping." 
+
+        intervals [5]:
+            xmin = 18.000000 
+            xmax = 24.000000 
+            text = "Camus had changed a lot." 
+
+        intervals [6]:
+            xmin = 24.000000 
+            xmax = 36.000000 
+            text = "These linguists, they are all lazy." 
+
+        intervals [7]:
+            xmin = 36.000000 
+            xmax = 48.000000 
+            text = "Of course, it was a pleasure for you to drink the coffee the cat made you warm." 
+
+        intervals [8]:
+            xmin = 48.000000 
+            xmax = 60.000000 
+            text = "She, I know her." 
+
+        intervals [9]:
+            xmin = 60.000000 
+            xmax = 70.000000 
+            text = "Paul, I talk to him often." 
+
+        intervals [10]:
+            xmin = 70.000000 
+            xmax = 74.000000 
+            text = "France, I believe in her." 
+
+        intervals [11]:
+            xmin = 74.000000 
+            xmax = 78.000000 
+            text = "France, I believe in her very strongly, will succeed." 
+
+        intervals [12]:
+            xmin = 78.000000 
+            xmax = 86.000000 
+            text = "The neural translation is impressive." 
+
+        intervals [13]:
+            xmin = 86.000000 
+            xmax = 104.000000 
+            text = "I went to Amsterdam often." 
+
+        intervals [14]:
+            xmin = 104.000000 
+            xmax = 108.000000 
+            text = "She talks to me too." 
+
+        intervals [15]:
+            xmin = 108.000000 
+            xmax = 118.000000 
+            text = "Dance, she will do it all her life." 
+
+        intervals [16]:
+            xmin = 118.000000 
+            xmax = 128.000000 
+            text = "Free, I am almost never." 
+
+        intervals [17]:
+            xmin = 128.000000 
+            xmax = 140.000000 
+            text = "Sublime, he was." 
+
+        intervals [18]:
+            xmin = 140.000000 
+            xmax = 146.000000 
+            text = "Actor, he will always remain." 
+
+        intervals [19]:
+            xmin = 146.000000 
+            xmax = 154.000000 
+            text = "He was still an actor." 
+
+        intervals [20]:
+            xmin = 154.000000 
+            xmax = 158.000000 
+            text = "I stayed there for a long time." 
+
+        intervals [21]:
+            xmin = 158.000000 
+            xmax = 164.000000 
+            text = "In there, do you know what he does?" 
+
+        intervals [22]:
+            xmin = 164.000000 
+            xmax = 174.000000 
+            text = "Julie, I often talk about his success." 
+
+        intervals [23]:
+            xmin = 174.000000 
+            xmax = 180.000000 
+            text = "James Key, I often talk about him in my classes." 
+
+        intervals [24]:
+            xmin = 180.000000 
+            xmax = 186.000000 
+            text = "His socks disappeared." 
+
+        intervals [25]:
+            xmin = 186.000000 
+            xmax = 192.000000 
+            text = "This team, amateurs often suffered because of her." 
+
+        intervals [26]:
+            xmin = 192.000000 
+            xmax = 198.000000 
+            text = "Paul, Pierre fought with this idiot." 
+
+        intervals [27]:
+            xmin = 198.000000 
+            xmax = 204.000000 
+            text = "Plastic Bertrand, I have all the records of this fool." 
+
+        intervals [28]:
+            xmin = 204.000000 
+            xmax = 214.000000 
+            text = "Statue's eyes, we have seen thousands of them." 
+
+        intervals [29]:
+            xmin = 214.000000 
+            xmax = 218.000000 
+            text = "I wrote one of them." 
+
+        intervals [30]:
+            xmin = 218.000000 
+            xmax = 224.000000 
+            text = "I still find one of them." 
+
+        intervals [31]:
+            xmin = 224.000000 
+            xmax = 228.000000 
+            text = "Reading, this is important." 
+
+        intervals [32]:
+            xmin = 228.000000 
+            xmax = 232.000000 
+            text = "Speed is beyond." 
+
+        intervals [33]:
+            xmin = 232.000000 
+            xmax = 238.000000 
+            text = "A child is precious and fragile." 
+
+        intervals [34]:
+            xmin = 238.000000 
+            xmax = 244.000000 
+            text = "A child moves a lot." 
+
+        intervals [35]:
+            xmin = 244.000000 
+            xmax = 250.000000 
+            text = "He works hard in medicine." 
+
+        intervals [36]:
+            xmin = 250.000000 
+            xmax = 256.000000 
+            text = "It takes all his energy, this kind of work." 
+
+        intervals [37]:
+            xmin = 268.000000 
+            xmax = 274.000000 
+            text = "Books, I know she stole a lot." 
+
+        intervals [38]:
+            xmin = 274.000000 
+            xmax = 280.000000 
+            text = "I gave him the book to Luc." 
+
+        intervals [39]:
+            xmin = 280.000000 
+            xmax = 286.000000 
+            text = "He knew she was heavy to carry." 
+
+        intervals [40]:
+            xmin = 286.000000 
+            xmax = 292.000000 
+            text = "Paul, this story, Marie told him well." 
+
+        intervals [41]:
+            xmin = 292.000000 
+            xmax = 300.000000 
+            text = "This story, Paul, Marie told him well." 
+
+        intervals [42]:
+            xmin = 300.000000 
+            xmax = 306.000000 
+            text = "This story, Paul, Marie told him well." 
+
+        intervals [43]:
+            xmin = 306.000000 
+            xmax = 312.000000 
+            text = "I know where Paul went." 
+
+        intervals [44]:
+            xmin = 312.000000 
+            xmax = 318.000000 
+            text = "I know where Paul went." 
+
+        intervals [45]:
+            xmin = 318.000000 
+            xmax = 324.000000 
+            text = "I took this apple, to whom he wanted to sell them." 
+
+        intervals [46]:
+            xmin = 324.000000 
+            xmax = 330.000000 
+            text = "I took this apple, to whom he wanted to sell them." 
+
+        intervals [47]:
+            xmin = 330.000000 
+            xmax = 336.000000 
+            text = "I took this apple, to whom he wanted to sell them." 
+
+        intervals [48]:
+            xmin = 336.000000 
+            xmax = 340.000000 
+            text = "I took this apple, where he found them." 
+

@@ -1,0 +1,224 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 340 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "captions" 
+        xmin = 0 
+        xmax = 340 
+        intervals: size = 42
+        intervals [1]:
+            xmin = 0.000000 
+            xmax = 20.700000 
+            text = "the cat he sleeps the cat he slept the cat he slept the cat he had changed a lot Camus" 
+
+        intervals [2]:
+            xmin = 20.700000 
+            xmax = 29.460000 
+            text = "I had a lot of change Camus, these linguists are all Fada, these linguists are all Fada," 
+
+        intervals [3]:
+            xmin = 29.460000 
+            xmax = 37.860000 
+            text = "they are all Fada these linguists, they are all Fada these linguists, of course it is" 
+
+        intervals [4]:
+            xmin = 37.860000 
+            xmax = 45.180000 
+            text = "pleasant to drink what the cafe you have heated, of course it is pleasant to drink what" 
+
+        intervals [5]:
+            xmin = 45.180000 
+            xmax = 58.660000 
+            text = "cafe you have heated, I know her, I know her, I know her, I know her, I know her," 
+
+        intervals [6]:
+            xmin = 58.660000 
+            xmax = 69.260000 
+            text = "Paul, I often talk to him, Paul I often talk to him, Paul, I often talk to him, Paul," 
+
+        intervals [7]:
+            xmin = 69.260000 
+            xmax = 77.980000 
+            text = "I believe in France, I believe in France, I believe very strongly, we will succeed. The" 
+
+        intervals [8]:
+            xmin = 77.980000 
+            xmax = 85.180000 
+            text = "neuronal translation is impressive, the neuronal translation is true, it is impressive." 
+
+        intervals [9]:
+            xmin = 85.180000 
+            xmax = 102.700000 
+            text = "Amsterdam, I went often. Amsterdam, I went often. I went often to Amsterdam. I went often to" 
+
+        intervals [10]:
+            xmin = 102.700000 
+            xmax = 110.580000 
+            text = "Amsterdam. Me too, she speaks to me, she speaks to me too. Dancing, she will do it all her life," 
+
+        intervals [11]:
+            xmin = 110.660000 
+            xmax = 116.980000 
+            text = "she will be dancing all her life in seu c'est, she will dance all her life in seu c'est, she will be dancing all her life in seu c'est." 
+
+        intervals [12]:
+            xmin = 116.980000 
+            xmax = 124.340000 
+            text = "Free, I do not follow it even a little bit, free I do not follow it even a little bit," 
+
+        intervals [13]:
+            xmin = 124.340000 
+            xmax = 132.780000 
+            text = "released I do not follow it even a little bit, sublime he was, sublime he was," 
+
+        intervals [14]:
+            xmin = 133.000000 
+            xmax = 141.700000 
+            text = "he was, sublime he was, sublimes he was, sublimes comedian he will never" 
+
+        intervals [15]:
+            xmin = 141.700000 
+            xmax = 148.480000 
+            text = "remain, comedian he will never remain, he was still a comedian, he was still a" 
+
+        intervals [16]:
+            xmin = 148.480000 
+            xmax = 156.420000 
+            text = "comedian, he was still a comedian, I stayed there for a long time, I" 
+
+        intervals [17]:
+            xmin = 157.140000 
+            xmax = 166.520000 
+            text = "stayed there for a long time, you know what he does, you know what he does, I" 
+
+        intervals [18]:
+            xmin = 166.520000 
+            xmax = 174.380000 
+            text = "say I talk often about his success, I speak often about his success, I" 
+
+        intervals [19]:
+            xmin = 174.380000 
+            xmax = 180.260000 
+            text = "speak of him in my classes, I speak often about him in my classes, classes" 
+
+        intervals [20]:
+            xmin = 180.460000 
+            xmax = 187.880000 
+            text = "7th grade were disappeared, 7th grade were disappeared, this team, the amateurs often suffered" 
+
+        intervals [21]:
+            xmin = 187.880000 
+            xmax = 194.380000 
+            text = "because of it, Paul, Pierre fought with this idiot," 
+
+        intervals [22]:
+            xmin = 194.380000 
+            xmax = 199.900000 
+            text = "Paul, Pierre fought with this idiot, Plastic Bertrand, I have all the records of this" 
+
+        intervals [23]:
+            xmin = 199.900000 
+            xmax = 205.140000 
+            text = "farfellu, Plastic Bertrand, I have all the records of this farfellu, the eyes of statuettes in the" 
+
+        intervals [24]:
+            xmin = 205.180000 
+            xmax = 210.220000 
+            text = "view of thousands, the eyes of statuettes we saw in the middle, we saw thousands of" 
+
+        intervals [25]:
+            xmin = 210.220000 
+            xmax = 217.420000 
+            text = "eyes of statuettes, we saw thousands of views of statuettes, I wrote one letter, I wrote one" 
+
+        intervals [26]:
+            xmin = 217.420000 
+            xmax = 225.220000 
+            text = "letter that I still find one to show, that I still find one to show, reading," 
+
+        intervals [27]:
+            xmin = 225.220000 
+            xmax = 233.140000 
+            text = "this is important, reading is important, speed is over, speed is over," 
+
+        intervals [28]:
+            xmin = 233.980000 
+            xmax = 240.260000 
+            text = "a child is precious and fragile, a child is precious and fragile, it moves a lot," 
+
+        intervals [29]:
+            xmin = 240.260000 
+            xmax = 247.940000 
+            text = "a child, it moves a lot, a child, it works hard, a medicine student, it works hard" 
+
+        intervals [30]:
+            xmin = 247.940000 
+            xmax = 254.660000 
+            text = "a medicine student, it takes all its energy, this kind of work, it takes all its energy," 
+
+        intervals [31]:
+            xmin = 254.660000 
+            xmax = 255.660000 
+            text = "this kind of work," 
+
+        intervals [32]:
+            xmin = 263.140000 
+            xmax = 275.520000 
+            text = "books, I know well that she stole a lot of books, I know well that she stole a lot, I" 
+
+        intervals [33]:
+            xmin = 275.520000 
+            xmax = 281.560000 
+            text = "gave her the book to Luc, I gave him the book to Luc, she knew well that she was" 
+
+        intervals [34]:
+            xmin = 281.560000 
+            xmax = 286.180000 
+            text = "afraid of bringing the suitcase, she knew well that she was afraid of taking the suitcase," 
+
+        intervals [35]:
+            xmin = 286.200000 
+            xmax = 296.220000 
+            text = "Paul, this story Marie told him well, this story Marie told him well, this story" 
+
+        intervals [36]:
+            xmin = 296.220000 
+            xmax = 308.140000 
+            text = "Paul told him well, this story Paul told him well, I know where Paul went," 
+
+        intervals [37]:
+            xmin = 308.140000 
+            xmax = 317.980000 
+            text = "I knew where Paul went, I know where Paul went, I know Paul where he went, I asked" 
+
+        intervals [38]:
+            xmin = 317.980000 
+            xmax = 322.660000 
+            text = "these people who had the intention to sell them I asked these people" 
+
+        intervals [39]:
+            xmin = 322.660000 
+            xmax = 327.880000 
+            text = "who had the intent to sell them, I asked them who these people were." 
+
+        intervals [40]:
+            xmin = 327.880000 
+            xmax = 331.060000 
+            text = "intended to sell them, I asked them who these people were." 
+
+        intervals [41]:
+            xmin = 331.060000 
+            xmax = 336.100000 
+            text = "he had the intent to sell them, I asked them these people where they" 
+
+        intervals [42]:
+            xmin = 336.100000 
+            xmax = 339.580000 
+            text = "had found them. I asked these people where they had found them." 
+

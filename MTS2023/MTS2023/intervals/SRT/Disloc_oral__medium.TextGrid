@@ -1,0 +1,524 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 341 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "captions" 
+        xmin = 0 
+        xmax = 341 
+        intervals: size = 102
+        intervals [1]:
+            xmin = 0.000000 
+            xmax = 19.840000 
+            text = "Le chat, il dort. Le chat, il dort. Il dort, le chat. Il dort, le chat. Il avait beaucoup" 
+
+        intervals [2]:
+            xmin = 19.840000 
+            xmax = 26.800000 
+            text = "changé, Camus. Il avait beaucoup changé, Camus. Ces linguistes, ils sont tous fadas." 
+
+        intervals [3]:
+            xmin = 27.800000 
+            xmax = 33.840000 
+            text = "Ces linguistes sont tous fadas. Ils sont tous fadas, ces linguistes." 
+
+        intervals [4]:
+            xmin = 33.840000 
+            xmax = 41.900000 
+            text = "Bien sûr, ça vous a fait plaisir de le boire, ce café aux lesquels vous avez fait chauffer." 
+
+        intervals [5]:
+            xmin = 41.900000 
+            xmax = 46.700000 
+            text = "Bien sûr, ça vous a fait plaisir de le boire, ce café aux lesquels vous avez fait chauffer." 
+
+        intervals [6]:
+            xmin = 71.900000 
+            xmax = 77.900000 
+            text = "J'y crois. La France, j'y crois très fort, va réussir." 
+
+        intervals [7]:
+            xmin = 77.900000 
+            xmax = 81.400000 
+            text = "La traduction neuronale est impressionnante." 
+
+        intervals [8]:
+            xmin = 81.400000 
+            xmax = 86.600000 
+            text = "La traduction neuronale, c'est vrai, est impressionnante." 
+
+        intervals [9]:
+            xmin = 86.600000 
+            xmax = 90.100000 
+            text = "À Amsterdam, j'y suis allé souvent." 
+
+        intervals [10]:
+            xmin = 95.100000 
+            xmax = 98.100000 
+            text = "À Amsterdam, j'y suis allé souvent." 
+
+        intervals [11]:
+            xmin = 98.100000 
+            xmax = 101.100000 
+            text = "J'y suis allé souvent à Amsterdam." 
+
+        intervals [12]:
+            xmin = 102.100000 
+            xmax = 104.100000 
+            text = "J'y suis allé souvent à Amsterdam." 
+
+        intervals [13]:
+            xmin = 104.100000 
+            xmax = 107.100000 
+            text = "À moi aussi, elle me parle." 
+
+        intervals [14]:
+            xmin = 107.100000 
+            xmax = 109.100000 
+            text = "À moi aussi, elle me parle." 
+
+        intervals [15]:
+            xmin = 109.100000 
+            xmax = 111.100000 
+            text = "Dancer, elle le fera toute sa vie." 
+
+        intervals [16]:
+            xmin = 111.100000 
+            xmax = 113.100000 
+            text = "Elle le fera danser toute sa vie." 
+
+        intervals [17]:
+            xmin = 113.100000 
+            xmax = 115.100000 
+            text = "Elle le fera toute sa vie danser." 
+
+        intervals [18]:
+            xmin = 115.100000 
+            xmax = 118.100000 
+            text = "Elle le fera toute sa vie danser." 
+
+        intervals [19]:
+            xmin = 118.100000 
+            xmax = 122.100000 
+            text = "Libre, je ne le suis à peu près jamais." 
+
+        intervals [20]:
+            xmin = 122.100000 
+            xmax = 125.100000 
+            text = "Libre, je ne le suis à peu près jamais." 
+
+        intervals [21]:
+            xmin = 125.100000 
+            xmax = 128.100000 
+            text = "Libre, je ne le suis à peu près jamais." 
+
+        intervals [22]:
+            xmin = 128.100000 
+            xmax = 131.100000 
+            text = "Sublime, il l'était." 
+
+        intervals [23]:
+            xmin = 132.100000 
+            xmax = 134.100000 
+            text = "Sublime, il l'était." 
+
+        intervals [24]:
+            xmin = 134.100000 
+            xmax = 137.100000 
+            text = "Il l'était sublime." 
+
+        intervals [25]:
+            xmin = 137.100000 
+            xmax = 138.100000 
+            text = "Il l'était sublime." 
+
+        intervals [26]:
+            xmin = 138.100000 
+            xmax = 140.100000 
+            text = "Il l'était sublime." 
+
+        intervals [27]:
+            xmin = 140.100000 
+            xmax = 142.900000 
+            text = "Comédien, il le restera toujours." 
+
+        intervals [28]:
+            xmin = 142.900000 
+            xmax = 144.900000 
+            text = "Comédien, il le restera toujours." 
+
+        intervals [29]:
+            xmin = 144.900000 
+            xmax = 147.900000 
+            text = "Il l'était encore comédien." 
+
+        intervals [30]:
+            xmin = 147.900000 
+            xmax = 150.600000 
+            text = "Il l'était encore comédien." 
+
+        intervals [31]:
+            xmin = 150.600000 
+            xmax = 153.900000 
+            text = "Il l'était encore comédien." 
+
+        intervals [32]:
+            xmin = 153.900000 
+            xmax = 156.900000 
+            text = "J'y suis resté longtemps, là-bas." 
+
+        intervals [33]:
+            xmin = 156.900000 
+            xmax = 158.900000 
+            text = "J'y suis resté longtemps là-bas." 
+
+        intervals [34]:
+            xmin = 159.900000 
+            xmax = 162.900000 
+            text = "Là-dedans, savez-vous ce qu'il y fait ?" 
+
+        intervals [35]:
+            xmin = 162.900000 
+            xmax = 164.900000 
+            text = "Là-dedans, savez-vous ce qu'il y fait ?" 
+
+        intervals [36]:
+            xmin = 164.900000 
+            xmax = 167.900000 
+            text = "Julie, je parle souvent de sa réussite." 
+
+        intervals [37]:
+            xmin = 167.900000 
+            xmax = 171.200000 
+            text = "Julie, je parle souvent de sa réussite." 
+
+        intervals [38]:
+            xmin = 171.200000 
+            xmax = 173.200000 
+            text = "Julie, je parle souvent de sa réussite." 
+
+        intervals [39]:
+            xmin = 173.200000 
+            xmax = 177.200000 
+            text = "James Key, je parle souvent de lui dans mes cours." 
+
+        intervals [40]:
+            xmin = 177.200000 
+            xmax = 179.600000 
+            text = "James Key, je parle souvent de lui dans mes cours." 
+
+        intervals [41]:
+            xmin = 179.600000 
+            xmax = 181.800000 
+            text = "Klaas, ses chaussettes ont disparu." 
+
+        intervals [42]:
+            xmin = 181.800000 
+            xmax = 184.800000 
+            text = "Klaas, ses chaussettes ont disparu." 
+
+        intervals [43]:
+            xmin = 185.200000 
+            xmax = 189.200000 
+            text = "Cette équipe, les amateurs ont souvent souffert à cause d'elle." 
+
+        intervals [44]:
+            xmin = 189.200000 
+            xmax = 192.200000 
+            text = "Cette équipe, les amateurs ont souvent souffert à cause d'elle." 
+
+        intervals [45]:
+            xmin = 192.200000 
+            xmax = 194.800000 
+            text = "Paul, Pierre s'est battu avec cet idiot." 
+
+        intervals [46]:
+            xmin = 194.800000 
+            xmax = 196.800000 
+            text = "Paul, Pierre s'est battu avec cet idiot." 
+
+        intervals [47]:
+            xmin = 196.800000 
+            xmax = 200.300000 
+            text = "Plastic Bertrand, j'ai tous les disques de ce farfelu." 
+
+        intervals [48]:
+            xmin = 200.300000 
+            xmax = 203.400000 
+            text = "Plastic Bertrand, j'ai tous les disques de ce farfelu." 
+
+        intervals [49]:
+            xmin = 203.400000 
+            xmax = 205.800000 
+            text = "Les yeux de statues, on a vu par milliers." 
+
+        intervals [50]:
+            xmin = 205.800000 
+            xmax = 208.800000 
+            text = "Les yeux de statues, on a vu par milliers." 
+
+        intervals [51]:
+            xmin = 208.800000 
+            xmax = 211.800000 
+            text = "On a vu par milliers des yeux de statue" 
+
+        intervals [52]:
+            xmin = 211.800000 
+            xmax = 214.300000 
+            text = "On avait par milliers des vues de statue." 
+
+        intervals [53]:
+            xmin = 214.300000 
+            xmax = 216.300000 
+            text = "J'en ai écrit une de lettres." 
+
+        intervals [54]:
+            xmin = 216.300000 
+            xmax = 219.300000 
+            text = "J'en ai écrit une de lettres." 
+
+        intervals [55]:
+            xmin = 219.300000 
+            xmax = 221.800000 
+            text = "Que j'en trouve encore une de montre." 
+
+        intervals [56]:
+            xmin = 221.800000 
+            xmax = 224.800000 
+            text = "Que j'en trouve encore une de montre." 
+
+        intervals [57]:
+            xmin = 224.800000 
+            xmax = 227.300000 
+            text = "La lecture, ça c'est important." 
+
+        intervals [58]:
+            xmin = 227.300000 
+            xmax = 229.300000 
+            text = "La lecture, ça c'est important." 
+
+        intervals [59]:
+            xmin = 229.300000 
+            xmax = 231.800000 
+            text = "La vitesse, c'est dépassé." 
+
+        intervals [60]:
+            xmin = 231.800000 
+            xmax = 234.300000 
+            text = "La vitesse, c'est dépassé." 
+
+        intervals [61]:
+            xmin = 234.300000 
+            xmax = 236.800000 
+            text = "Un enfant, c'est précieux et fragile." 
+
+        intervals [62]:
+            xmin = 236.800000 
+            xmax = 239.800000 
+            text = "Un enfant, c'est précieux et fragile." 
+
+        intervals [63]:
+            xmin = 239.800000 
+            xmax = 241.800000 
+            text = "Ça bouge beaucoup, un enfant." 
+
+        intervals [64]:
+            xmin = 241.800000 
+            xmax = 244.800000 
+            text = "Ça bouge beaucoup, un enfant." 
+
+        intervals [65]:
+            xmin = 244.800000 
+            xmax = 247.300000 
+            text = "Ça travaille fort en étudiant en médecine." 
+
+        intervals [66]:
+            xmin = 247.300000 
+            xmax = 250.300000 
+            text = "Ça travaille fort en étudiant en médecine." 
+
+        intervals [67]:
+            xmin = 250.300000 
+            xmax = 253.300000 
+            text = "Ça prend toute son énergie, ce genre de travail." 
+
+        intervals [68]:
+            xmin = 253.300000 
+            xmax = 256.300000 
+            text = "Ça prend toute son énergie, ce genre de travail." 
+
+        intervals [69]:
+            xmin = 256.800000 
+            xmax = 258.300000 
+            text = "Des livres, Jean je sais bien" 
+
+        intervals [70]:
+            xmin = 258.300000 
+            xmax = 261.300000 
+            text = "qu'elle lui en a volés beaucoup." 
+
+        intervals [71]:
+            xmin = 261.300000 
+            xmax = 262.300000 
+            text = "Des livres, Jean je sais bien" 
+
+        intervals [72]:
+            xmin = 262.300000 
+            xmax = 264.300000 
+            text = "qu'elle lui en a volés beaucoup." 
+
+        intervals [73]:
+            xmin = 264.300000 
+            xmax = 265.300000 
+            text = "Je lui ai donné le livre à Luc." 
+
+        intervals [74]:
+            xmin = 265.300000 
+            xmax = 267.300000 
+            text = "Je lui ai donné le livre à Luc." 
+
+        intervals [75]:
+            xmin = 267.300000 
+            xmax = 269.300000 
+            text = "Je lui ai donné le livre à Luc." 
+
+        intervals [76]:
+            xmin = 269.300000 
+            xmax = 272.300000 
+            text = "Il savait bien qu'elle l'était lourde" 
+
+        intervals [77]:
+            xmin = 272.300000 
+            xmax = 273.800000 
+            text = "d'apporter la valise," 
+
+        intervals [78]:
+            xmin = 273.800000 
+            xmax = 276.300000 
+            text = "il savait bien qu'elle l'était lourde" 
+
+        intervals [79]:
+            xmin = 276.300000 
+            xmax = 278.800000 
+            text = "d'apporter la valise de inversions." 
+
+        intervals [80]:
+            xmin = 278.800000 
+            xmax = 281.300000 
+            text = "estaba bien pe tord," 
+
+        intervals [81]:
+            xmin = 282.300000 
+            xmax = 284.300000 
+            text = "Il savait bien qu'elle l'était lourde" 
+
+        intervals [82]:
+            xmin = 284.300000 
+            xmax = 286.300000 
+            text = "d'apporter la valise." 
+
+        intervals [83]:
+            xmin = 286.300000 
+            xmax = 290.300000 
+            text = "A Paul, Maril le lui a bien raconté." 
+
+        intervals [84]:
+            xmin = 290.300000 
+            xmax = 294.300000 
+            text = "A Paul, Maril le lui a bien raconté." 
+
+        intervals [85]:
+            xmin = 294.300000 
+            xmax = 299.300000 
+            text = "A Paul, Maril le lui a bien raconté." 
+
+        intervals [86]:
+            xmin = 299.300000 
+            xmax = 304.300000 
+            text = "A Paul, Maril le lui a bien raconté." 
+
+        intervals [87]:
+            xmin = 304.300000 
+            xmax = 307.300000 
+            text = "Je sais où Paul est allé." 
+
+        intervals [88]:
+            xmin = 307.300000 
+            xmax = 310.300000 
+            text = "Je sais où Paul est allé." 
+
+        intervals [89]:
+            xmin = 310.300000 
+            xmax = 312.300000 
+            text = "Je vais lui demander ces pommes-là" 
+
+        intervals [90]:
+            xmin = 312.300000 
+            xmax = 314.300000 
+            text = "à qui il avait l'intention de les vendre." 
+
+        intervals [91]:
+            xmin = 314.300000 
+            xmax = 316.300000 
+            text = "Je vais lui demander ces pommes-là" 
+
+        intervals [92]:
+            xmin = 316.300000 
+            xmax = 318.300000 
+            text = "à qui il avait l'intention de les vendre." 
+
+        intervals [93]:
+            xmin = 318.300000 
+            xmax = 320.300000 
+            text = "Je lui jet demandé à qui" 
+
+        intervals [94]:
+            xmin = 320.300000 
+            xmax = 322.300000 
+            text = "ces pommes-là, ils avaient l'intention" 
+
+        intervals [95]:
+            xmin = 322.300000 
+            xmax = 323.300000 
+            text = "de les vendre." 
+
+        intervals [96]:
+            xmin = 323.300000 
+            xmax = 325.300000 
+            text = "Je lui ai demandé à qui" 
+
+        intervals [97]:
+            xmin = 325.300000 
+            xmax = 327.300000 
+            text = "ces pommes-là, il avaient l'intention" 
+
+        intervals [98]:
+            xmin = 327.300000 
+            xmax = 329.300000 
+            text = "de les vendre." 
+
+        intervals [99]:
+            xmin = 329.300000 
+            xmax = 331.300000 
+            text = "Je mu ai demandé à qui ces pommes-là," 
+
+        intervals [100]:
+            xmin = 331.300000 
+            xmax = 335.300000 
+            text = "il avait l'intention de les vendre." 
+
+        intervals [101]:
+            xmin = 335.300000 
+            xmax = 338.300000 
+            text = "Je lui ai demandé ces pommes-là" 
+
+        intervals [102]:
+            xmin = 338.300000 
+            xmax = 340.300000 
+            text = "à qui ces pommes-là, il avait l'intention de les vendre." 
+
