@@ -1,5 +1,0 @@
-Datasets for the MT Summit 2023 submission for the user's track
-
-Nicolas Ballier, Behnoosh Namdarzadeh, Maria Zimina and Jean-Baptiste Yunès (accepted) Translating Dislocations or Parentheticals : Investigating the Role of Prosodic Boundaries for Spoken Language Translation of French into English 
-
-
