@@ -1,0 +1,10 @@
+     665 realignedDisloc_oral_base_translated.txt
+     631 realigned_Disloc_oral_large-v2_translated.txt
+     560 realigned_Disloc_oral_large_translated.txt
+     312 realigned_Disloc_oral_medium_translated.txt
+     664 realigned_Disloc_oral_small_translated.txt
+     641 realigned_Disloc_oral_tiny_translated.txt
+     652 reference_translation.txt
+
+
+  
